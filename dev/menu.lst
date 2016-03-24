@@ -1,0 +1,22 @@
+timeout 30
+default 0
+
+title Boot from HDD
+rootnoverify (hd0,0)
+chainloader (hd0,0)+1
+
+title Windows 8 x86
+map (hd0,0)/Win8x32.iso (hd32)
+map --hook
+chainloader (hd32)
+
+title Windows 7 x86
+map (hd0,0)/Win7x32.iso (hd32)
+map --hook
+chainloader (hd32)
+
+title Reboot
+reboot
+
+title Shutdown
+halt

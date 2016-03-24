@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Unchecky]
+"HideTrayIcon"=dword:00000001
+"Language"=dword:00000419
+
+[HKEY_USERS\S-1-5-18\Software\Unchecky]
+"HideTrayIcon"=dword:00000001
+"Language"=dword:00000419
+
+[HKEY_USERS\S-1-5-19\Software\Unchecky]
+"HideTrayIcon"=dword:00000001
+"Language"=dword:00000419
+
+[HKEY_USERS\S-1-5-20\Software\Unchecky]
+"HideTrayIcon"=dword:00000001
+"Language"=dword:00000419

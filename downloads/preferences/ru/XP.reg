@@ -1,0 +1,3123 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\CLSID\{85BBD920-42A0-1069-A2E4-08002B30309D}]
+[-HKEY_CLASSES_ROOT\CLSID\{87D62D94-71B3-4b9a-9489-5FE6850DC73E}]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shellex\PropertyHandler]
+[-HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{0633EE93-D776-472f-A0FF-E1416B8B2E3A}]
+[-HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{6BA4BBC5-3A34-465E-A7AD-CA216AD72022}]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Favorites]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu2]
+[-HKEY_LOCAL_MACHINE\Software\Classes\.bfc\ShellNew]
+[-HKEY_LOCAL_MACHINE\Software\Classes\.rtf\ShellNew]
+[-HKEY_LOCAL_MACHINE\Software\Classes\.bmp\ShellNew]
+[-HKEY_LOCAL_MACHINE\Software\Classes\.wav\ShellNew]
+[-HKEY_LOCAL_MACHINE\Software\Classes\.zip\CompressedFolder\ShellNew]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{87D62D94-71B3-4b9a-9489-5FE6850DC73E}\InProcServer32]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\SearchScopes\{0633EE93-D776-472f-A0FF-E1416B8B2E3A}]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\SearchScopes\{6BA4BBC5-3A34-465E-A7AD-CA216AD72022}]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{78CB147A-98EA-4AA6-B0DF-C8681F69341C}]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\RemoteComputer\NameSpace\{2227A280-3AEA-1069-A2DE-08002B30309D}]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\RemoteComputer\NameSpace\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Themes\DownloadSites]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft XPS Document Writer]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Search\Gather\Windows\SystemIndex\Extensions\ExtensionList]
+[-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Search\Gather\Windows\SystemIndex\StartPages\0]
+[-HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print\Printers\Microsoft XPS Document Writer]
+[-HKEY_LOCAL_MACHINE\System\ControlSet001\Control\Print\Printers\Microsoft XPS Document Writer]
+[-HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\SearchScopes\{0633EE93-D776-472f-A0FF-E1416B8B2E3A}]
+[-HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\SearchScopes\{6BA4BBC5-3A34-465E-A7AD-CA216AD72022}]
+[-HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Favorites]
+[-HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu]
+[-HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu2]
+[-HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\SearchScopes\{0633EE93-D776-472f-A0FF-E1416B8B2E3A}]
+[-HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\SearchScopes\{6BA4BBC5-3A34-465E-A7AD-CA216AD72022}]
+[-HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Favorites]
+[-HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu]
+[-HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu2]
+[-HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\SearchScopes\{0633EE93-D776-472f-A0FF-E1416B8B2E3A}]
+[-HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\SearchScopes\{6BA4BBC5-3A34-465E-A7AD-CA216AD72022}]
+[-HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Favorites]
+[-HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu]
+[-HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\MenuOrder\Start Menu2]
+
+[HKEY_CLASSES_ROOT\.dll]
+"Content Type"="application/x-msdownload"
+@="dllfile"
+
+[HKEY_CLASSES_ROOT\.ocx]
+@="ocxfile"
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}]
+@="Users and passwords"
+"InfoTip"="Users and passwords"
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\DefaultIcon]
+@="%SystemRoot%\System32\netplwiz.dll,-102"
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\Shell\Open\command]
+@="rundll32.exe netplwiz.dll,UsersRunDll"
+
+[HKEY_CLASSES_ROOT\dllfile]
+@="Application Extension"
+
+[HKEY_CLASSES_ROOT\dllfile\Shell\Register\command]
+@="regsvr32.exe \"%1\""
+
+[HKEY_CLASSES_ROOT\dllfile\Shell\UnRegister\command]
+@="regsvr32.exe /u \"%1\""
+
+[HKEY_CLASSES_ROOT\ocxfile]
+@="OCX"
+
+[HKEY_CLASSES_ROOT\ocxfile\Shell\Register\command]
+@="regsvr32.exe \"%1\""
+
+[HKEY_CLASSES_ROOT\ocxfile\Shell\UnRegister\command]
+@="regsvr32.exe /u \"%1\""
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"CoolSwitchColumns"="10"
+"CoolSwitchRows"="5"
+"FontSmoothing"="2"
+"MenuShowDelay"="2"
+"MUILanguagePending"="00000409"
+"MultiUILanguageId"="00000409"
+"PaintDesktopVersion"=dword:00000000
+"ScreenSaveActive"="0"
+"ScreenSaveTimeOut"="60"
+"scrnsave.exe"=""
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"Shell Icon BPP"="32"
+
+[HKEY_CURRENT_USER\Control Panel\International]
+"iCalendarType"="1"
+"iCountry"="371"
+"iCurrDigits"="2"
+"iCurrency"="2"
+"iDate"="2"
+"iDigits"="2"
+"iFirstDayOfWeek"="0"
+"iFirstWeekOfYear"="2"
+"iLZero"="1"
+"iMeasure"="0"
+"iNegCurr"="9"
+"iNegNumber"="1"
+"iTime"="1"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"NumShape"="1"
+"s1159"=""
+"s2359"=""
+"sCountry"="Latvia"
+"sCurrency"="Ls"
+"sDate"="."
+"sDecimal"=","
+"sGrouping"="3;0"
+"sLanguage"="LVI"
+"sList"=";"
+"sMonDecimalSep"=","
+"sMonGrouping"="3;0"
+"sMonThousandSep"=" "
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sShortDate"="yyyy.MM.dd."
+"sThousand"=" "
+"sTime"=":"
+"sTimeFormat"="H:mm:ss"
+"sPositiveSign"=""
+
+[HKEY_CURRENT_USER\Control Panel\International\Geo]
+"Nation"="140"
+
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2"
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSensitivity"="20"
+
+[HKEY_CURRENT_USER\Control Panel\PowerCfg\GlobalPowerPolicy]
+"Policies"=hex:01,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,04,00,00,C0,01,00,00,00,04,00,00,00,01,00,00,00,0A,00,00,00,00,00,00,00,03,00,00,00,01,00,01,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,02,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,00,00,00,12,00,00,00
+
+[HKEY_CURRENT_USER\Keyboard Layout\Preload]
+"1"="00000409"
+"1"="00000426"
+"2"="00000419"
+
+[HKEY_CURRENT_USER\Keyboard Layout\Substitutes]
+"00000426"="00010426"
+
+[HKEY_CURRENT_USER\Software\Microsoft\CTF]
+"Disable Thread Input Manager"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\CTF\MSUTB]
+"ShowDeskBand"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Feeds]
+"DefaultInterval"=dword:0000000F
+"SyncStatus"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Connection Wizard]
+"Completed"=hex:01,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer]
+"Show_FullURL"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\CommandBar]
+"CommandBarEnabled"=dword:00000000
+"TextOption"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Default HTML Editor]
+"Description"="Notepad"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Default HTML Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Desktop\Components]
+"GeneralFlags"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Feed Discovery]
+"Sound"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Feeds]
+"AutoMarkAsReadOPV"=dword:00000001
+"TurnOffOPV"=dword:00000000
+"TurnOnClipButton"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\International]
+"AutoDetect"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\LinksBar]
+"Enabled"=dword:00000000
+"UpdatedSound"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"AlwaysShowMenus"=dword:00000001
+"Check_Associations"="no"
+"Enable AutoImageResize"="yes"
+"FavIntelliMenus"="yes"
+"FormSuggest Passwords"="yes"
+"FormSuggest PW Ask"="yes"
+"IE8RunOnceCompletionTime"=hex:
+"IE8RunOnceLastShown"=dword:00000001
+"IE8RunOnceLastShown_TIMESTAMP"=hex:
+"IE8RunOncePerInstallCompleted"=dword:00000001
+"IE8TourShown"=dword:00000001
+"IE8TourShownTime"=hex:
+"NotifyDownloadComplete"="yes"
+"NoUpdateCheck"=dword:00000000
+"NscSingleExpand"=dword:00000001
+"Play_Animations"="yes"
+"Play_Background_Sounds"="yes"
+"RunOnceComplete"=dword:00000001
+"SmoothScroll"=dword:00000001
+"Start Page"="about:blank"
+"Use FormSuggest"="yes"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\WindowsSearch]
+"AutoCompleteGroups"=dword:00000007
+"EnabledScopes"=dword:00000007
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\New Windows]
+"PopupMgr"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\PhishingFilter]
+"EnabledV8"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Privacy]
+"ClearBrowsingHistoryOnExit"=dword:00000001
+"CleanForms"=dword:00000001
+"CleanInPrivateBlocking"=dword:00000001
+"CleanPassword"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Safety\PrivacIE]
+"DisableToolbars"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{6B528F7B-1290-4F85-BA27-8515B393FF4B}]
+"FaviconPath"="C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Microsoft\\Internet Explorer\\Services\\search_{6B528F7B-1290-4F85-BA27-8515B393FF4B}.ico"
+"FaviconURLFallback"="https://www.google.lv/favicon.ico"
+"SuggestionsURL"="http://clients5.google.com/complete/search?q={searchTerms}&client=ie8"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Suggested Sites]
+"Enabled"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\MediaLibraryUI\MLTreeState]
+"LocalLibrary"=dword:00000000
+"Playlists"=dword:00000000
+"WMPCP"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Player\Settings]
+"EnableDVDUI"="yes"
+
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences]
+"AutoAddMusicToLibrary"=dword:00000001
+"AutoAddRemovable"=dword:00000000
+"AutoCopyCD"=dword:00000000
+"AutoEjectCD"=dword:00000001
+"AutoMetadataUpdate"=dword:00000001
+"AutoOrganize"=dword:00000001
+"AutoRename"=dword:00000001
+"CDRecordDRM"=dword:00000001
+"CDRecordMode"=dword:00000000
+"CDRecordMP3"=dword:00000000
+"CurrentDisplayView"="VideoView"
+"CurrentEffectPreset"=dword:00000003
+"CurrentEffectType"="Bars"
+"DoNotShowAnchor"=dword:00000001
+"EnableScreensaver"=dword:00000000
+"FlushRatingsToFiles"=dword:00000001
+"ForceOnline"=dword:00000000
+"LastContainerV11"="{CC3D0211-9655-11D3-BA86-0000F80855E6}"
+"LibraryBasketVisibleNowPlaying"=dword:00000000
+"LibraryTreeVisible"=dword:00000001
+"MaxBandwidth"=dword:7FFFFFFF
+"MetadataRetrieval"=dword:00000003
+"MP3RecordRate"=dword:0000FA00
+"PromptLicenseBackup"=dword:00000001
+"SendUserGUID"=hex:01
+"SilentAcquisition"=dword:00000001
+"ShowAlbumArt"=dword:00000000
+"ShowMinimizeDialog"=dword:00000000
+"StartInMediaGuide"=dword:00000001
+"UpgradeCheckFrequency"=dword:00000000
+"UpgradeCodecPrompt"=dword:00000001
+"UsageTracking"=dword:00000001
+"Volume"=dword:00000064
+"WMARecordRate"=dword:0002EE00
+"WMARecordQuality"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Setup\UserOptions]
+"QuickLaunchShortcut"="no"
+
+[HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Splitters]
+"LeftV11"=dword:00000096
+
+[HKEY_CURRENT_USER\Software\Microsoft\MessengerService]
+"AppSettings"=hex:02,01,00,80
+"CEIP Preference"=dword:00000001
+"DisableInkIM"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Notepad]
+"iWindowPosDX"=dword:00000400
+"iWindowPosDY"=dword:000002F8
+"iWindowPosX"=dword:00000000
+"iWindowPosY"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\PCHealth\HelpCtr\UserSettings\SearchParam\Professional_32\1033\D23D0028-A543-4767-B4AA-1581D8E1CDB2]
+"Product"="msall"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Shared\HTML\Default Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Spider]
+"LoadAtStart"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Management]
+"ShowUpdates"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount "=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Options]
+"Maximized"=dword:00000001
+"Units"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Text]
+"BarState0"=dword:0000000F
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Paint\View]
+"WindowPlacement"=hex:2C,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF,FF,FF,FF,FF,FF,00,00,00,00,00,00,00,00,13,01,00,00,9A,01,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"DesktopProcess"=dword:00000001
+"EnableAutoTray"=dword:00000000
+"FolderContentsInfoTip"=dword:00000001
+"link"=hex:00,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"CascadeControlPanel"="no"
+"CascadeMyDocuments"="no"
+"CascadeMyPictures"="no"
+"CascadePrinters"="no"
+"DisableThumbnailCache"=dword:00000001
+"FolderContentsInfoTip"=dword:00000001
+"Hidden"=dword:00000001
+"link"=hex:00,00,00,00
+"ListviewShadow"=dword:00000001
+"NoNetCrawling"=dword:00000000
+"SeparateProcess"=dword:00000000
+"Start_NotifyNewApps"=dword:00000001
+"Start_ShowHelp"=dword:00000000
+"Start_ShowNetPlaces"=dword:00000000
+"Start_ShowPrinters"=dword:00000000
+"Start_ShowSetProgramAccessAndDefaults"=dword:00000000
+"StartMenuAdminTools"="no"
+"StartMenuChange"=dword:00000001
+"StartMenuFavorites"=dword:00000000
+"StartMenuRun"=dword:00000001
+"TaskbarSizeMove"=dword:00000000
+"TaskbarGlomming"=dword:00000001
+"WebViewBarricade"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoComplete]
+"Append Completion"="yes"
+"AutoSuggest"="yes"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz]
+"NoRun"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico]
+"Application"="shimgvw.dll"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\OpenWithList]
+"a"="shimgvw.dll"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo]
+"Application"="Notepad.exe"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithProgids]
+"MSInfo.Document"=hex(0)
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList]
+"a"="Notepad.exe"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{208D2C60-3AEA-1069-A2D7-08002B30309D}"=dword:00000001
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{450D8FBA-AD25-11D0-98A8-0800361B1103}"=dword:00000000
+"{871C5380-42A0-1069-A2EA-08002B30309D}"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage]
+"Favorites"=hex:FF
+"FavoritesChanges"=dword:00000003
+"FavoritesResolve"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Streams\Desktop]
+"TaskbarWinXP"=hex:0C,00,00,00,08,00,00,00,03,00,00,00,00,00,00,00,B0,E2,2B,D8,64,57,D0,11,A9,6E,00,C0,4F,D7,05,A2,22,00,1C,00,0A,11,00,00,1A,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,4C,00,00,00,01,14,02,00,00,00,00,00,C0,00,00,00,00,00,00,46,81,00,00,00,11,00,00,00,CC,8D,B0,D7,9C,97,CE,01,58,DD,D2,A6,87,98,CE,01,5A,67,9E,E6,9C,97,CE,01,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,15,02,14,00,1F,50,E0,4F,D0,20,EA,3A,69,10,A2,D8,08,00,2B,30,30,9D,19,00,2F,43,3A,5C,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,5C,00,31,00,00,00,00,00,0C,43,A7,A5,10,00,44,4F,43,55,4D,45,7E,31,00,00,44,00,03,00,04,00,EF,BE,0C,43,F2,B8,0E,43,34,05,14,00,00,00,44,00,6F,00,63,00,75,00,6D,00,65,00,6E,00,74,00,73,00,20,00,61,00,6E,00,64,00,20,00,53,00,65,00,74,00,74,00,69,00,6E,00,67,00,73,00,00,00,18,00,4A,00,31,00,00,00,00,00,0C,43,98,AD,10,00,41,44,4D,49,4E,49,7E,31,00,00,32,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,00,00,41,00,64,00,6D,00,69,00,6E,00,69,00,73,00,74,00,72,00,61,00,74,00,6F,00,72,00,00,00,18,00,64,00,31,00,00,00,00,00,0C,43,07,B9,13,00,41,50,50,4C,49,43,7E,31,00,00,4C,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,36,00,41,00,70,00,70,00,6C,00,69,00,63,00,61,00,74,00,69,00,6F,00,6E,00,20,00,44,00,61,00,74,00,61,00,00,00,40,73,68,65,6C,6C,33,32,2E,64,6C,6C,2C,2D,32,31,37,36,35,00,18,00,42,00,31,00,00,00,00,00,6C,31,97,96,14,00,4D,49,43,52,4F,53,7E,31,00,00,2A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,99,96,14,00,00,00,4D,00,69,00,63,00,72,00,6F,00,73,00,6F,00,66,00,74,00,00,00,18,00,52,00,31,00,00,00,00,00,6C,31,9A,96,10,00,49,4E,54,45,52,4E,7E,31,00,00,3A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,9C,96,14,00,00,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,00,00,18,00,48,00,31,00,00,00,00,00,6C,31,9C,96,11,00,51,55,49,43,4B,4C,7E,31,00,00,30,00,03,00,04,00,EF,BE,6C,31,99,96,6C,31,9C,96,14,00,00,00,51,00,75,00,69,00,63,00,6B,00,20,00,4C,00,61,00,75,00,6E,00,63,00,68,00,00,00,18,00,00,00,60,00,00,00,03,00,00,A0,58,00,00,00,00,00,00,00,63,6F,6D,70,75,74,65,72,00,00,00,00,00,00,00,00,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,10,00,00,00,05,00,00,A0,1A,00,00,00,37,01,00,00,00,00,00,00,08,00,00,00,02,00,00,00,0C,01,00,00,01,00,00,00,02,00,00,00,8A,00,00,00,01,00,00,00,7C,00,32,00,2F,03,00,00,0C,43,AF,A5,20,00,4C,41,55,4E,43,48,7E,31,2E,4C,4E,4B,00,00,60,00,03,00,04,00,EF,BE,0C,43,AF,A5,0E,43,58,05,14,00,00,00,4C,00,61,00,75,00,6E,00,63,00,68,00,20,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,20,00,42,00,72,00,6F,00,77,00,73,00,65,00,72,00,2E,00,6C,00,6E,00,6B,00,00,00,1C,00,00,00,00,00,00,00,76,00,00,00,00,00,00,00,68,00,32,00,4F,00,00,00,0C,43,B3,A5,20,00,53,48,4F,57,44,45,7E,31,2E,53,43,46,00,00,4C,00,03,00,04,00,EF,BE,0C,43,B3,A5,0E,43,58,05,14,00,36,00,53,00,68,00,6F,00,77,00,20,00,44,00,65,00,73,00,6B,00,74,00,6F,00,70,00,2E,00,73,00,63,00,66,00,00,00,40,78,70,73,70,32,72,65,73,2E,64,6C,6C,2C,2D,36,31,30,30,00,1C,00,00,00,00,00,00,00,3C,00,00,00,60,07,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,01,00,00,00,AA,4F,28,68,48,6A,D0,11,8C,78,00,C0,4F,D9,18,B4,EE,03,00,00,60,0D,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,8B,8A,0D,54,3F,1C,32,4E,81,32,53,0F,6A,50,20,90,1E,00,00,00,60,05,00,00,00,00,00,00,18,00,00,00,00,00,00,00,00,00,00,00,18,00,00,00,00,00,00,00,01,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\WebView\BarricadedFolders]
+"shell:ControlPanelFolder"=dword:00000000
+"shell:ProgramFiles"=dword:00000000
+"shell:System"=dword:0000000
+"shell:SystemDriveRootFolder"=dword:00000000
+"shell:Windows"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"EnableAutodial"=dword:00000000
+"EnableNegotiate"=dword:00000000
+"MaxConnectionsPerServer"=dword:00000020
+"ProxyHttp1.1"=dword:00000001
+"SecureProtocols"=dword:000000A8
+"SyncMode5"=dword:00000003
+"WarnOnZoneCrossing"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache]
+"Persistent"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Url History]
+"DaysToKeep"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Passport]
+"RegistrationCompleted"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000000
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000000
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1408"=dword:00000000
+"1409"=dword:00000003
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000003
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00020000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000000
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000000
+"2201"=dword:00000000
+"2300"=dword:00000001
+"2301"=dword:00000003
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00010500
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000000
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00011000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000003
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000000
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1809"=dword:00000000
+"180B"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"2000"=dword:00000003
+"2005"=dword:00000003
+"2100"=dword:00000003
+"2101"=dword:00000003
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000003
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000003
+"2301"=dword:00000000
+"2400"=dword:00000003
+"2401"=dword:00000003
+"2402"=dword:00000003
+"2600"=dword:00000003
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00012000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"ForceClassicControlPanel"=dword:00000001
+"GreyMSIAds"=dword:00000001
+"MaxRecentDocs"=dword:0xF
+"MemCheckBoxInRunDlg"=dword:00000001
+"NoNetworkConnections"=dword:00000001
+"NoRecentDocsHistory"=dword:00000001
+"NoRecentDocsMenu"=hex:01,00,00,00
+"NoSMConfigurePrograms"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoInternetOpenWith"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
+"ctfmon.exe"="C:\\Windows\\System32\\ctfmon.exe"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Webcheck]
+"NoScheduledUpdates"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"FFlags"=dword:00000225
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\Bags\1\Shell]
+"Mode"=dword:00000006
+"ShowCmd"=dword:00000003
+"WFlags"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{00021400-0000-0000-C000-000000000046}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{208D2C60-3AEA-1069-A2D7-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{2227A280-3AEA-1069-A2DE-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{450D8FBA-AD25-11D0-98A8-0800361B1103}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{871C5380-42A0-1069-A2EA-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{46E06680-4BF0-11D1-83EE-00A0C90DC849}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{E211B736-43FD-11D1-9EFB-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{F3364BA0-65B9-11CE-A9BA-00AA004AE837}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FB0C9C8A-6C50-11D1-9F1D-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FBEB8A05-BEEE-4442-804E-409D6C4515E9}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\MUICache]
+"@browselc.dll,-13137"="&Address"
+"@browselc.dll,-13138"="&Links"
+"@xpsp2res.dll,-6100"="Show Desktop"
+"@xpsp1res.dll,-11003"="Launch Internet Explorer Browser"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Devices\Microsoft XPS Document Writer]
+"winspool,Ne00:"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts\Microsoft XPS Document Writer]
+"winspool,Ne00:,15,45"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows\Device]
+"Microsoft XPS Document Writer,winspool,Ne00:"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+"Preferences"=hex:9c,02,00,00,f4,01,00,00,02,00,00,00,01,00,00,00,00,00,00,00,0a,00,00,00,0a,00,00,00,a7,01,00,00,d1,01,00,00,02,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,b3,00,ae,01,76,00,60,00,45,00,68,00,5c,00,55,00,3c,00,3c,00,3c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,0e,00,00,00,13,00,00,00,14,00,00,00,15,00,00,00,16,00,00,00,17,00,00,00,18,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,78,00,00,00,24,00,00,00,6c,00,00,00,23,00,00,00,3f,00,00,00,46,00,00,00,6e,00,00,00,54,00,00,00,58,00,00,00,75,00,00,00,61,00,00,00,5a,00,00,00,b1,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,0b,00,00,00,0c,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,cb,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00
+"UsrColumnSettings"=hex:1c,0c,00,00,34,04,00,00,00,00,00,00,ab,00,00,00,01,00,00,00,1d,0c,00,00,35,04,00,00,01,00,00,00,35,00,00,00,01,00,00,00,1e,0c,00,00,36,04,00,00,00,00,00,00,45,00,00,00,01,00,00,00,1f,0c,00,00,39,04,00,00,00,00,00,00,58,00,00,00,01,00,00,00,20,0c,00,00,37,04,00,00,00,00,00,00,34,00,00,00,01,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"AutoRestartShell"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mchkr_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_CURRENT_USER\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mhrtz_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_CURRENT_USER\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mrvse_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_CURRENT_USER\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mshvl_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_CURRENT_USER\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mbckg_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\dllfile\DefaultIcon]
+@=hex(2):25,00,31,00,00,00
+
+[HKEY_LOCAL_MACHINE\Software\Classes\htmlfile\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Dfrg\BootOptimizeFunction]
+"Enable"="Y"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main]
+"DEPOff"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\Feature_LocalMachine_Lockdown]
+"IExplorer"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\SearchScopes\{6B528F7B-1290-4F85-BA27-8515B393FF4B}]
+"DisplayName"="Google"
+"FaviconURL"="https://www.google.com/favicon.ico"
+"ShowSearchSuggestions"=dword:00000001
+"SuggestionsURL"="https://clients1.google.lv/complete/search?q={searchTerms}"
+"URL"="https://www.google.lv/search?q={searchTerms}"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\MediaPlayer]
+"BlockUninstall"=""
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\MediaPlayer\Settings\MP3Encoding]
+"HighRate"=dword:0002EE00
+"LowRate"=dword:0000DAC0
+"MediumHighRate"=dword:0001F400
+"MediumRate"=dword:0000FA00
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Microsoft Antimalware\Quarantine]
+"PurgeItemsAfterDelay"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Microsoft Antimalware\Reporting]
+"DisableGenericReports"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Microsoft Antimalware\Scan]
+"DisableRemovableDriveScanning"=dword:00000000
+"DisableRestorePoint"=dword:00000000
+"DisableArchiveScanning"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Microsoft Antimalware\Signature Updates]
+"ExpiryNotificationIntervalDays"=dword:ffffffff
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Microsoft Antimalware\SpyNet]
+"SpyNetReporting"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion]
+"DisableEOSNotification"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\DateTime\Servers]
+@="1"
+"1"="time.windows.com"
+"2"="time.nist.gov"
+"3"="clock.isc.org"
+"4"="timekeeper.isi.edu"
+"5"="usno.pa-x.dec.com"
+"6"="tock.usno.navy.mil"
+"7"="tick.usno.navy.mil"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"Max Cached Icons"="8192"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\BitBucket]
+"Percent"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{98641F47-8C25-4936-BEE4-C2CE1298969D}]
+@="Users and passwords"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Active Setup Temp Folders]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Compress old files]
+"Days"=dword:000001F4
+"StateFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Content Indexer Cleaner]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Downloaded Program Files]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Internet Cache Files]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Memory Dump Files]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Old ChkDsk Files]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Recycle Bin]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Remote Desktop Cache Files]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Setup Log Files]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Temporary Files]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\WebClient and WebPublisher Cache]
+"StateFlags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path1]
+"CacheLimit"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path2]
+"CacheLimit"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path3]
+"CacheLimit"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path4]
+"CacheLimit"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRemoteRecursiveEvents"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoInternetOpenWith"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update]
+"AUOptions"=dword:00000004
+"ScheduledInstallTime"=dword:00000014
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion]
+"RegDone"="1"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug]
+"Auto"="0"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontMapper]
+@="204"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Arial,0"="Arial,204"
+"Arial Cyr,0"="Arial,204"
+"Courier,0"="Courier New,204"
+"Courier New Cyr,0"="Courier New,204"
+"Fixedsys,0"="Fixedsys,204"
+"Helv,0"="MS Sans Serif,204"
+"MS Sans Serif,0"="MS Sans Serif,204"
+"MS Serif,0"="MS Serif,204"
+"Small Fonts,0"="Small Fonts,204"
+"System,0"="Arial,204"
+"Tahoma,0"="Tahoma,204"
+"Times New Roman Cyr,0"="Times New Roman,204"
+"Tms Rmn,0"="MS Serif,204"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"EnableQuickReboot"="1"
+"KeepRasConnections"="1"
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\WindowsMediaPlayer]
+"GroupPrivacyAcceptance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\ControlSet001\Control\TimeZoneInformation]
+"ActiveTimeBias"=dword:FFFFFF4C
+"Bias"=dword:FFFFFF88
+"DaylightName"="FLE Daylight Time"
+"DaylightStart"=hex:00,00,03,00,05,00,03,00,00,00,00,00,00,00,00,00
+"StandardName"="FLE Standard Time"
+"StandardStart"=hex:00,00,0A,00,05,00,04,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Class\{4D36E96A-E325-11CE-BFC1-08002BE10318}\0000]
+"EnableUDMA66"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CrashControl]
+"SendAlert"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\FileSystem]
+"NtfsDisable8dot3NameCreation"=dword:00000001
+"NtfsDisableLastAccessUpdate"=dword:00000001
+"NtfsMftZoneReservation"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\FileSystem\CDFS]
+"CacheSize"=hex:FF,FF,00,00
+"Prefetch"=dword:00004000
+"PrefetchTail"=dword:00004000
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\CodePage]
+"1250"="c_1251.nls"
+"1251"="c_1251.nls"
+"1252"="c_1251.nls"
+"1253"="c_1251.nls"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment]
+"DEVMGR_SHOW_DETAILS"=dword:00000001
+"DEVMGR_SHOW_noNPRESENT_DEVICES"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management]
+"DisablePagingExecutive"=dword:00000001
+"EnablePrefetcher"=dword:00000003
+"IoPageLockLimit"=dword:00010000
+"SecondLevelDataCache"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\MemoryManagement\PrefetchParameters]
+"EnablePrefetcher"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Terminal Server]
+"fAllowToGetHelp"=dword:00000000
+"fDenyTSConnections"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Terminal Server\Licensing Core]
+"EnableConcurrentSessions"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation]
+"ActiveTimeBias"=dword:FFFFFF4C
+"Bias"=dword:FFFFFF88
+"DaylightName"="FLE Daylight Time"
+"DaylightStart"=hex:00,00,03,00,05,00,03,00,00,00,00,00,00,00,00,00
+"StandardName"="FLE Standard Time"
+"StandardStart"=hex:00,00,0A,00,05,00,04,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\WindowsEmbedded\ProductVersion]
+"FeaturePackVersion"="SP3"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\WOW]
+"DefaultSeparateVDM"="yes"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\i8042prt\Parameters]
+"CrashOnCtrlScroll"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanServer\Parameters]
+"AutoShareServer"=dword:00000000
+"AutoShareWks"=dword:00000000
+"RefuseReset"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\ServiceProvider]
+"DnsPriority"=dword:00000001
+"HostsPriority"=dword:00000001
+"LocalPriority"=dword:00000001
+"NetbtPriority"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\WPA\PosReady]
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\WPA\WEPOS]
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\WPA\WES]
+"Installed"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Control Panel\Desktop]
+"CoolSwitchColumns"="10"
+"CoolSwitchRows"="5"
+"FontSmoothing"="2"
+"MenuShowDelay"="2"
+"MUILanguagePending"="00000409"
+"MultiUILanguageId"="00000409"
+"PaintDesktopVersion"=dword:00000000
+"ScreenSaveActive"="0"
+"ScreenSaveTimeOut"="60"
+"scrnsave.exe"=""
+
+[HKEY_USERS\S-1-5-18\Control Panel\Desktop\WindowMetrics]
+"Shell Icon BPP"="32"
+
+[HKEY_USERS\S-1-5-18\Control Panel\International]
+"iCalendarType"="1"
+"iCountry"="371"
+"iCurrDigits"="2"
+"iCurrency"="2"
+"iDate"="2"
+"iDigits"="2"
+"iFirstDayOfWeek"="0"
+"iFirstWeekOfYear"="2"
+"iLZero"="1"
+"iMeasure"="0"
+"iNegCurr"="9"
+"iNegNumber"="1"
+"iTime"="1"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"NumShape"="1"
+"s1159"=""
+"s2359"=""
+"sCountry"="Latvia"
+"sCurrency"="Ls"
+"sDate"="."
+"sDecimal"=","
+"sGrouping"="3;0"
+"sLanguage"="LVI"
+"sList"=";"
+"sMonDecimalSep"=","
+"sMonGrouping"="3;0"
+"sMonThousandSep"=" "
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sShortDate"="yyyy.MM.dd."
+"sThousand"=" "
+"sTime"=":"
+"sTimeFormat"="H:mm:ss"
+"sPositiveSign"=""
+
+[HKEY_USERS\S-1-5-18\Control Panel\International\Geo]
+"Nation"="140"
+
+[HKEY_USERS\S-1-5-18\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2"
+
+[HKEY_USERS\S-1-5-18\Control Panel\Mouse]
+"MouseSensitivity"="20"
+
+[HKEY_USERS\S-1-5-18\Control Panel\PowerCfg\GlobalPowerPolicy]
+"Policies"=hex:01,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,04,00,00,C0,01,00,00,00,04,00,00,00,01,00,00,00,0A,00,00,00,00,00,00,00,03,00,00,00,01,00,01,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,02,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,00,00,00,12,00,00,00
+
+[HKEY_USERS\S-1-5-18\Keyboard Layout\Preload]
+"1"="00000426"
+"2"="00000419"
+
+[HKEY_USERS\S-1-5-18\Keyboard Layout\Substitutes]
+"00000426"="00010426"
+
+[HKEY_USERS\S-1-5-18\Software\Ahead\Nero - Burning Rom\Recorder]
+"ShowSingleRecorderSpeed"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\CTF]
+"Disable Thread Input Manager"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\CTF\MSUTB]
+"ShowDeskBand"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Feeds]
+"DefaultInterval"=dword:0000000F
+"SyncStatus"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Connection Wizard]
+"Completed"=hex:01,00,00,00
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer]
+"Show_FullURL"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\CommandBar]
+"CommandBarEnabled"=dword:00000000
+"TextOption"=dword:00000002
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Default HTML Editor]
+"Description"="Notepad"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Default HTML Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Desktop\Components]
+"GeneralFlags"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Feed Discovery]
+"Sound"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Feeds]
+"AutoMarkAsReadOPV"=dword:00000001
+"TurnOffOPV"=dword:00000000
+"TurnOnClipButton"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\International]
+"AutoDetect"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\LinksBar]
+"Enabled"=dword:00000000
+"UpdatedSound"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Main]
+"AlwaysShowMenus"=dword:00000001
+"Check_Associations"="no"
+"Enable AutoImageResize"="yes"
+"FavIntelliMenus"="yes"
+"FormSuggest Passwords"="yes"
+"FormSuggest PW Ask"="yes"
+"IE8RunOnceCompletionTime"=hex:
+"IE8RunOnceLastShown"=dword:00000001
+"IE8RunOnceLastShown_TIMESTAMP"=hex:
+"IE8RunOncePerInstallCompleted"=dword:00000001
+"IE8TourShown"=dword:00000001
+"IE8TourShownTime"=hex:
+"NotifyDownloadComplete"="yes"
+"NoUpdateCheck"=dword:00000000
+"NscSingleExpand"=dword:00000001
+"Play_Animations"="yes"
+"Play_Background_Sounds"="yes"
+"RunOnceComplete"=dword:00000001
+"SmoothScroll"=dword:00000001
+"Start Page"="about:blank"
+"Use FormSuggest"="yes"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Main\WindowsSearch]
+"AutoCompleteGroups"=dword:00000007
+"EnabledScopes"=dword:00000007
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\New Windows]
+"PopupMgr"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\PhishingFilter]
+"EnabledV8"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Privacy]
+"ClearBrowsingHistoryOnExit"=dword:00000001
+"CleanForms"=dword:00000001
+"CleanInPrivateBlocking"=dword:00000001
+"CleanPassword"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Safety\PrivacIE]
+"DisableToolbars"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\SearchScopes\{6B528F7B-1290-4F85-BA27-8515B393FF4B}]
+"FaviconPath"="C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Microsoft\\Internet Explorer\\Services\\search_{6B528F7B-1290-4F85-BA27-8515B393FF4B}.ico"
+"FaviconURLFallback"="https://www.google.lv/favicon.ico"
+"SuggestionsURL"="http://clients5.google.com/complete/search?q={searchTerms}&client=ie8"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Internet Explorer\Suggested Sites]
+"Enabled"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\MediaPlayer\MediaLibraryUI\MLTreeState]
+"LocalLibrary"=dword:00000000
+"Playlists"=dword:00000000
+"WMPCP"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\MediaPlayer\Player\Settings]
+"EnableDVDUI"="yes"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\MediaPlayer\Preferences]
+"AutoAddMusicToLibrary"=dword:00000001
+"AutoAddRemovable"=dword:00000000
+"AutoCopyCD"=dword:00000000
+"AutoEjectCD"=dword:00000001
+"AutoMetadataUpdate"=dword:00000001
+"AutoOrganize"=dword:00000001
+"AutoRename"=dword:00000001
+"CDRecordDRM"=dword:00000001
+"CDRecordMode"=dword:00000000
+"CDRecordMP3"=dword:00000000
+"CurrentDisplayView"="VideoView"
+"CurrentEffectPreset"=dword:00000003
+"CurrentEffectType"="Bars"
+"DoNotShowAnchor"=dword:00000001
+"EnableScreensaver"=dword:00000000
+"FlushRatingsToFiles"=dword:00000001
+"ForceOnline"=dword:00000000
+"LastContainerV11"="{CC3D0211-9655-11D3-BA86-0000F80855E6}"
+"LibraryBasketVisibleNowPlaying"=dword:00000000
+"LibraryTreeVisible"=dword:00000001
+"MaxBandwidth"=dword:7FFFFFFF
+"MetadataRetrieval"=dword:00000003
+"MP3RecordRate"=dword:0000FA00
+"PromptLicenseBackup"=dword:00000001
+"SendUserGUID"=hex:01
+"SilentAcquisition"=dword:00000001
+"ShowAlbumArt"=dword:00000000
+"ShowMinimizeDialog"=dword:00000000
+"StartInMediaGuide"=dword:00000001
+"UpgradeCheckFrequency"=dword:00000000
+"UpgradeCodecPrompt"=dword:00000001
+"UsageTracking"=dword:00000001
+"Volume"=dword:00000064
+"WMARecordRate"=dword:0002EE00
+"WMARecordQuality"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\MediaPlayer\Setup\UserOptions]
+"QuickLaunchShortcut"="no"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\MediaPlayer\Splitters]
+"LeftV11"=dword:00000096
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\MessengerService]
+"AppSettings"=hex:02,01,00,80
+"CEIP Preference"=dword:00000001
+"DisableInkIM"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Notepad]
+"iWindowPosDX"=dword:00000400
+"iWindowPosDY"=dword:000002F8
+"iWindowPosX"=dword:00000000
+"iWindowPosY"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\PCHealth\HelpCtr\UserSettings\SearchParam\Professional_32\1033\D23D0028-A543-4767-B4AA-1581D8E1CDB2]
+"Product"="msall"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\PowerPoint Viewer\11.0]
+"EULAAccepted"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Shared\HTML\Default Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Spider]
+"LoadAtStart"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Options]
+"Maximized"=dword:00000001
+"Units"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\App Management]
+"ShowUpdates"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount "=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Text]
+"BarState0"=dword:0000000F
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Applets\Paint\View]
+"WindowPlacement"=hex:2C,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF,FF,FF,FF,FF,FF,00,00,00,00,00,00,00,00,13,01,00,00,9A,01,00,00
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"DesktopProcess"=dword:00000001
+"EnableAutoTray"=dword:00000000
+"FolderContentsInfoTip"=dword:00000001
+"link"=hex:00,00,00,00
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"CascadeControlPanel"="no"
+"CascadeMyDocuments"="no"
+"CascadeMyPictures"="no"
+"CascadePrinters"="no"
+"DisableThumbnailCache"=dword:00000001
+"FolderContentsInfoTip"=dword:00000001
+"Hidden"=dword:00000001
+"link"=hex:00,00,00,00
+"ListviewShadow"=dword:00000001
+"NoNetCrawling"=dword:00000000
+"SeparateProcess"=dword:00000000
+"Start_NotifyNewApps"=dword:00000001
+"Start_ShowHelp"=dword:00000000
+"Start_ShowNetPlaces"=dword:00000000
+"Start_ShowPrinters"=dword:00000000
+"Start_ShowSetProgramAccessAndDefaults"=dword:00000000
+"StartMenuAdminTools"="no"
+"StartMenuChange"=dword:00000001
+"StartMenuFavorites"=dword:00000000
+"StartMenuRun"=dword:00000001
+"TaskbarSizeMove"=dword:00000000
+"TaskbarGlomming"=dword:00000001
+"WebViewBarricade"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoComplete]
+"Append Completion"="yes"
+"AutoSuggest"="yes"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz]
+"NoRun"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico]
+"Application"="shimgvw.dll"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\OpenWithList]
+"a"="shimgvw.dll"
+"MRUList"="a"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo]
+"Application"="Notepad.exe"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithProgids]
+"MSInfo.Document"=hex(0)
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList]
+"a"="Notepad.exe"
+"MRUList"="a"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{208D2C60-3AEA-1069-A2D7-08002B30309D}"=dword:00000001
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{450D8FBA-AD25-11D0-98A8-0800361B1103}"=dword:00000000
+"{871C5380-42A0-1069-A2EA-08002B30309D}"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage]
+"Favorites"=hex:FF
+"FavoritesChanges"=dword:00000003
+"FavoritesResolve"=-
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\Streams\Desktop]
+"TaskbarWinXP"=hex:0C,00,00,00,08,00,00,00,03,00,00,00,00,00,00,00,B0,E2,2B,D8,64,57,D0,11,A9,6E,00,C0,4F,D7,05,A2,22,00,1C,00,0A,11,00,00,1A,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,4C,00,00,00,01,14,02,00,00,00,00,00,C0,00,00,00,00,00,00,46,81,00,00,00,11,00,00,00,CC,8D,B0,D7,9C,97,CE,01,58,DD,D2,A6,87,98,CE,01,5A,67,9E,E6,9C,97,CE,01,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,15,02,14,00,1F,50,E0,4F,D0,20,EA,3A,69,10,A2,D8,08,00,2B,30,30,9D,19,00,2F,43,3A,5C,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,5C,00,31,00,00,00,00,00,0C,43,A7,A5,10,00,44,4F,43,55,4D,45,7E,31,00,00,44,00,03,00,04,00,EF,BE,0C,43,F2,B8,0E,43,34,05,14,00,00,00,44,00,6F,00,63,00,75,00,6D,00,65,00,6E,00,74,00,73,00,20,00,61,00,6E,00,64,00,20,00,53,00,65,00,74,00,74,00,69,00,6E,00,67,00,73,00,00,00,18,00,4A,00,31,00,00,00,00,00,0C,43,98,AD,10,00,41,44,4D,49,4E,49,7E,31,00,00,32,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,00,00,41,00,64,00,6D,00,69,00,6E,00,69,00,73,00,74,00,72,00,61,00,74,00,6F,00,72,00,00,00,18,00,64,00,31,00,00,00,00,00,0C,43,07,B9,13,00,41,50,50,4C,49,43,7E,31,00,00,4C,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,36,00,41,00,70,00,70,00,6C,00,69,00,63,00,61,00,74,00,69,00,6F,00,6E,00,20,00,44,00,61,00,74,00,61,00,00,00,40,73,68,65,6C,6C,33,32,2E,64,6C,6C,2C,2D,32,31,37,36,35,00,18,00,42,00,31,00,00,00,00,00,6C,31,97,96,14,00,4D,49,43,52,4F,53,7E,31,00,00,2A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,99,96,14,00,00,00,4D,00,69,00,63,00,72,00,6F,00,73,00,6F,00,66,00,74,00,00,00,18,00,52,00,31,00,00,00,00,00,6C,31,9A,96,10,00,49,4E,54,45,52,4E,7E,31,00,00,3A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,9C,96,14,00,00,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,00,00,18,00,48,00,31,00,00,00,00,00,6C,31,9C,96,11,00,51,55,49,43,4B,4C,7E,31,00,00,30,00,03,00,04,00,EF,BE,6C,31,99,96,6C,31,9C,96,14,00,00,00,51,00,75,00,69,00,63,00,6B,00,20,00,4C,00,61,00,75,00,6E,00,63,00,68,00,00,00,18,00,00,00,60,00,00,00,03,00,00,A0,58,00,00,00,00,00,00,00,63,6F,6D,70,75,74,65,72,00,00,00,00,00,00,00,00,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,10,00,00,00,05,00,00,A0,1A,00,00,00,37,01,00,00,00,00,00,00,08,00,00,00,02,00,00,00,0C,01,00,00,01,00,00,00,02,00,00,00,8A,00,00,00,01,00,00,00,7C,00,32,00,2F,03,00,00,0C,43,AF,A5,20,00,4C,41,55,4E,43,48,7E,31,2E,4C,4E,4B,00,00,60,00,03,00,04,00,EF,BE,0C,43,AF,A5,0E,43,58,05,14,00,00,00,4C,00,61,00,75,00,6E,00,63,00,68,00,20,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,20,00,42,00,72,00,6F,00,77,00,73,00,65,00,72,00,2E,00,6C,00,6E,00,6B,00,00,00,1C,00,00,00,00,00,00,00,76,00,00,00,00,00,00,00,68,00,32,00,4F,00,00,00,0C,43,B3,A5,20,00,53,48,4F,57,44,45,7E,31,2E,53,43,46,00,00,4C,00,03,00,04,00,EF,BE,0C,43,B3,A5,0E,43,58,05,14,00,36,00,53,00,68,00,6F,00,77,00,20,00,44,00,65,00,73,00,6B,00,74,00,6F,00,70,00,2E,00,73,00,63,00,66,00,00,00,40,78,70,73,70,32,72,65,73,2E,64,6C,6C,2C,2D,36,31,30,30,00,1C,00,00,00,00,00,00,00,3C,00,00,00,60,07,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,01,00,00,00,AA,4F,28,68,48,6A,D0,11,8C,78,00,C0,4F,D9,18,B4,EE,03,00,00,60,0D,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,8B,8A,0D,54,3F,1C,32,4E,81,32,53,0F,6A,50,20,90,1E,00,00,00,60,05,00,00,00,00,00,00,18,00,00,00,00,00,00,00,00,00,00,00,18,00,00,00,00,00,00,00,01,00,00,00
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Explorer\WebView\BarricadedFolders]
+"shell:ControlPanelFolder"=dword:00000000
+"shell:ProgramFiles"=dword:00000000
+"shell:System"=dword:0000000
+"shell:SystemDriveRootFolder"=dword:00000000
+"shell:Windows"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"EnableAutodial"=dword:00000000
+"EnableNegotiate"=dword:00000000
+"MaxConnectionsPerServer"=dword:00000020
+"ProxyHttp1.1"=dword:00000001
+"SecureProtocols"=dword:000000A8
+"SyncMode5"=dword:00000003
+"WarnOnZoneCrossing"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache]
+"Persistent"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Url History]
+"DaysToKeep"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Passport]
+"RegistrationCompleted"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000000
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000000
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1408"=dword:00000000
+"1409"=dword:00000003
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000003
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00020000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000000
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000000
+"2201"=dword:00000000
+"2300"=dword:00000001
+"2301"=dword:00000003
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00010500
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000000
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00011000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000003
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000000
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1809"=dword:00000000
+"180B"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"2000"=dword:00000003
+"2005"=dword:00000003
+"2100"=dword:00000003
+"2101"=dword:00000003
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000003
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000003
+"2301"=dword:00000000
+"2400"=dword:00000003
+"2401"=dword:00000003
+"2402"=dword:00000003
+"2600"=dword:00000003
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00012000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"ForceClassicControlPanel"=dword:00000001
+"GreyMSIAds"=dword:00000001
+"MaxRecentDocs"=dword:0xF
+"MemCheckBoxInRunDlg"=dword:00000001
+"NoNetworkConnections"=dword:00000001
+"NoRecentDocsHistory"=dword:00000001
+"NoRecentDocsMenu"=hex:01,00,00,00
+"NoSMConfigurePrograms"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoInternetOpenWith"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run]
+"ctfmon.exe"="C:\\Windows\\System32\\ctfmon.exe"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Webcheck]
+"NoScheduledUpdates"=dword:00000000
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\Shell]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"FFlags"=dword:00000225
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\Bags\1\Shell]
+"Mode"=dword:00000006
+"ShowCmd"=dword:00000003
+"WFlags"=dword:00000002
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{00021400-0000-0000-C000-000000000046}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{208D2C60-3AEA-1069-A2D7-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{2227A280-3AEA-1069-A2DE-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{450D8FBA-AD25-11D0-98A8-0800361B1103}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{46E06680-4BF0-11D1-83EE-00A0C90DC849}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{871C5380-42A0-1069-A2EA-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{E211B736-43FD-11D1-9EFB-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{F3364BA0-65B9-11CE-A9BA-00AA004AE837}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FB0C9C8A-6C50-11D1-9F1D-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FBEB8A05-BEEE-4442-804E-409D6C4515E9}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows\ShellNoRoam\MUICache]
+"@browselc.dll,-13137"="&Address"
+"@browselc.dll,-13138"="&Links"
+"@xpsp2res.dll,-6100"="Show Desktop"
+"@xpsp1res.dll,-11003"="Launch Internet Explorer Browser"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\Devices\Microsoft XPS Document Writer]
+"winspool,Ne00:"=-
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts\Microsoft XPS Document Writer]
+"winspool,Ne00:,15,45"=-
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\Windows\Device]
+"Microsoft XPS Document Writer,winspool,Ne00:"=-
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+"Preferences"=hex:9c,02,00,00,f4,01,00,00,02,00,00,00,01,00,00,00,00,00,00,00,0a,00,00,00,0a,00,00,00,a7,01,00,00,d1,01,00,00,02,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,b3,00,ae,01,76,00,60,00,45,00,68,00,5c,00,55,00,3c,00,3c,00,3c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,0e,00,00,00,13,00,00,00,14,00,00,00,15,00,00,00,16,00,00,00,17,00,00,00,18,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,78,00,00,00,24,00,00,00,6c,00,00,00,23,00,00,00,3f,00,00,00,46,00,00,00,6e,00,00,00,54,00,00,00,58,00,00,00,75,00,00,00,61,00,00,00,5a,00,00,00,b1,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,0b,00,00,00,0c,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,cb,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00
+"UsrColumnSettings"=hex:1c,0c,00,00,34,04,00,00,00,00,00,00,ab,00,00,00,01,00,00,00,1d,0c,00,00,35,04,00,00,01,00,00,00,35,00,00,00,01,00,00,00,1e,0c,00,00,36,04,00,00,00,00,00,00,45,00,00,00,01,00,00,00,1f,0c,00,00,39,04,00,00,00,00,00,00,58,00,00,00,01,00,00,00,20,0c,00,00,37,04,00,00,00,00,00,00,34,00,00,00,01,00,00,00
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"AutoRestartShell"=dword:00000001
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mchkr_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mhrtz_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mrvse_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mshvl_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-18\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mbckg_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-19\Control Panel\Desktop]
+"CoolSwitchColumns"="10"
+"CoolSwitchRows"="5"
+"FontSmoothing"="2"
+"MenuShowDelay"="2"
+"MUILanguagePending"="00000409"
+"MultiUILanguageId"="00000409"
+"PaintDesktopVersion"=dword:00000000
+"ScreenSaveActive"="0"
+"ScreenSaveTimeOut"="60"
+"scrnsave.exe"=""
+
+[HKEY_USERS\S-1-5-19\Control Panel\Desktop\WindowMetrics]
+"Shell Icon BPP"="32"
+
+[HKEY_USERS\S-1-5-19\Control Panel\International]
+"iCalendarType"="1"
+"iCountry"="371"
+"iCurrDigits"="2"
+"iCurrency"="2"
+"iDate"="2"
+"iDigits"="2"
+"iFirstDayOfWeek"="0"
+"iFirstWeekOfYear"="2"
+"iLZero"="1"
+"iMeasure"="0"
+"iNegCurr"="9"
+"iNegNumber"="1"
+"iTime"="1"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"NumShape"="1"
+"s1159"=""
+"s2359"=""
+"sCountry"="Latvia"
+"sCurrency"="Ls"
+"sDate"="."
+"sDecimal"=","
+"sGrouping"="3;0"
+"sLanguage"="LVI"
+"sList"=";"
+"sMonDecimalSep"=","
+"sMonGrouping"="3;0"
+"sMonThousandSep"=" "
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sShortDate"="yyyy.MM.dd."
+"sThousand"=" "
+"sTime"=":"
+"sTimeFormat"="H:mm:ss"
+"sPositiveSign"=""
+
+[HKEY_USERS\S-1-5-19\Control Panel\International\Geo]
+"Nation"="140"
+
+[HKEY_USERS\S-1-5-19\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2"
+
+[HKEY_USERS\S-1-5-19\Control Panel\Mouse]
+"MouseSensitivity"="20"
+
+[HKEY_USERS\S-1-5-19\Control Panel\PowerCfg\GlobalPowerPolicy]
+"Policies"=hex:01,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,04,00,00,C0,01,00,00,00,04,00,00,00,01,00,00,00,0A,00,00,00,00,00,00,00,03,00,00,00,01,00,01,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,02,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,00,00,00,12,00,00,00
+
+[HKEY_USERS\S-1-5-19\Keyboard Layout\Preload]
+"1"="00000426"
+"2"="00000419"
+
+[HKEY_USERS\S-1-5-19\Keyboard Layout\Substitutes]
+"00000426"="00010426"
+
+[HKEY_USERS\S-1-5-19\Software\Ahead\Nero - Burning Rom\Recorder]
+"ShowSingleRecorderSpeed"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\CTF]
+"Disable Thread Input Manager"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\CTF\MSUTB]
+"ShowDeskBand"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Feeds]
+"DefaultInterval"=dword:0000000F
+"SyncStatus"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Connection Wizard]
+"Completed"=hex:01,00,00,00
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer]
+"Show_FullURL"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\CommandBar]
+"CommandBarEnabled"=dword:00000000
+"TextOption"=dword:00000002
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Default HTML Editor]
+"Description"="Notepad"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Default HTML Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Desktop\Components]
+"GeneralFlags"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Feed Discovery]
+"Sound"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Feeds]
+"AutoMarkAsReadOPV"=dword:00000001
+"TurnOffOPV"=dword:00000000
+"TurnOnClipButton"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\International]
+"AutoDetect"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\LinksBar]
+"Enabled"=dword:00000000
+"UpdatedSound"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Main]
+"AlwaysShowMenus"=dword:00000001
+"Check_Associations"="no"
+"Enable AutoImageResize"="yes"
+"FavIntelliMenus"="yes"
+"FormSuggest Passwords"="yes"
+"FormSuggest PW Ask"="yes"
+"IE8RunOnceCompletionTime"=hex:
+"IE8RunOnceLastShown"=dword:00000001
+"IE8RunOnceLastShown_TIMESTAMP"=hex:
+"IE8RunOncePerInstallCompleted"=dword:00000001
+"IE8TourShown"=dword:00000001
+"IE8TourShownTime"=hex:
+"NotifyDownloadComplete"="yes"
+"NoUpdateCheck"=dword:00000000
+"NscSingleExpand"=dword:00000001
+"Play_Animations"="yes"
+"Play_Background_Sounds"="yes"
+"RunOnceComplete"=dword:00000001
+"SmoothScroll"=dword:00000001
+"Start Page"="about:blank"
+"Use FormSuggest"="yes"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Main\WindowsSearch]
+"AutoCompleteGroups"=dword:00000007
+"EnabledScopes"=dword:00000007
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\New Windows]
+"PopupMgr"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\PhishingFilter]
+"EnabledV8"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Privacy]
+"ClearBrowsingHistoryOnExit"=dword:00000001
+"CleanForms"=dword:00000001
+"CleanInPrivateBlocking"=dword:00000001
+"CleanPassword"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Safety\PrivacIE]
+"DisableToolbars"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\SearchScopes\{6B528F7B-1290-4F85-BA27-8515B393FF4B}]
+"FaviconPath"="C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Microsoft\\Internet Explorer\\Services\\search_{6B528F7B-1290-4F85-BA27-8515B393FF4B}.ico"
+"FaviconURLFallback"="https://www.google.lv/favicon.ico"
+"SuggestionsURL"="http://clients5.google.com/complete/search?q={searchTerms}&client=ie8"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Internet Explorer\Suggested Sites]
+"Enabled"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\MediaPlayer\MediaLibraryUI\MLTreeState]
+"LocalLibrary"=dword:00000000
+"Playlists"=dword:00000000
+"WMPCP"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\MediaPlayer\Player\Settings]
+"EnableDVDUI"="yes"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\MediaPlayer\Preferences]
+"AutoAddMusicToLibrary"=dword:00000001
+"AutoAddRemovable"=dword:00000000
+"AutoCopyCD"=dword:00000000
+"AutoEjectCD"=dword:00000001
+"AutoMetadataUpdate"=dword:00000001
+"AutoOrganize"=dword:00000001
+"AutoRename"=dword:00000001
+"CDRecordDRM"=dword:00000001
+"CDRecordMode"=dword:00000000
+"CDRecordMP3"=dword:00000000
+"CurrentDisplayView"="VideoView"
+"CurrentEffectPreset"=dword:00000003
+"CurrentEffectType"="Bars"
+"DoNotShowAnchor"=dword:00000001
+"EnableScreensaver"=dword:00000000
+"FlushRatingsToFiles"=dword:00000001
+"ForceOnline"=dword:00000000
+"LastContainerV11"="{CC3D0211-9655-11D3-BA86-0000F80855E6}"
+"LibraryBasketVisibleNowPlaying"=dword:00000000
+"LibraryTreeVisible"=dword:00000001
+"MaxBandwidth"=dword:7FFFFFFF
+"MetadataRetrieval"=dword:00000003
+"MP3RecordRate"=dword:0000FA00
+"PromptLicenseBackup"=dword:00000001
+"SendUserGUID"=hex:01
+"SilentAcquisition"=dword:00000001
+"ShowAlbumArt"=dword:00000000
+"ShowMinimizeDialog"=dword:00000000
+"StartInMediaGuide"=dword:00000001
+"UpgradeCheckFrequency"=dword:00000000
+"UpgradeCodecPrompt"=dword:00000001
+"UsageTracking"=dword:00000001
+"Volume"=dword:00000064
+"WMARecordRate"=dword:0002EE00
+"WMARecordQuality"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\MediaPlayer\Setup\UserOptions]
+"QuickLaunchShortcut"="no"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\MediaPlayer\Splitters]
+"LeftV11"=dword:00000096
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\MessengerService]
+"AppSettings"=hex:02,01,00,80
+"CEIP Preference"=dword:00000001
+"DisableInkIM"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Notepad]
+"iWindowPosDX"=dword:00000400
+"iWindowPosDY"=dword:000002F8
+"iWindowPosX"=dword:00000000
+"iWindowPosY"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\PCHealth\HelpCtr\UserSettings\SearchParam\Professional_32\1033\D23D0028-A543-4767-B4AA-1581D8E1CDB2]
+"Product"="msall"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\PowerPoint Viewer\11.0]
+"EULAAccepted"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Shared\HTML\Default Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Spider]
+"LoadAtStart"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Options]
+"Maximized"=dword:00000001
+"Units"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\App Management]
+"ShowUpdates"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount "=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Text]
+"BarState0"=dword:0000000F
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Applets\Paint\View]
+"WindowPlacement"=hex:2C,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF,FF,FF,FF,FF,FF,00,00,00,00,00,00,00,00,13,01,00,00,9A,01,00,00
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"DesktopProcess"=dword:00000001
+"EnableAutoTray"=dword:00000000
+"FolderContentsInfoTip"=dword:00000001
+"link"=hex:00,00,00,00
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"CascadeControlPanel"="no"
+"CascadeMyDocuments"="no"
+"CascadeMyPictures"="no"
+"CascadePrinters"="no"
+"DisableThumbnailCache"=dword:00000001
+"FolderContentsInfoTip"=dword:00000001
+"Hidden"=dword:00000001
+"link"=hex:00,00,00,00
+"ListviewShadow"=dword:00000001
+"NoNetCrawling"=dword:00000000
+"SeparateProcess"=dword:00000000
+"Start_NotifyNewApps"=dword:00000001
+"Start_ShowHelp"=dword:00000000
+"Start_ShowNetPlaces"=dword:00000000
+"Start_ShowPrinters"=dword:00000000
+"Start_ShowSetProgramAccessAndDefaults"=dword:00000000
+"StartMenuAdminTools"="no"
+"StartMenuChange"=dword:00000001
+"StartMenuFavorites"=dword:00000000
+"StartMenuRun"=dword:00000001
+"TaskbarSizeMove"=dword:00000000
+"TaskbarGlomming"=dword:00000001
+"WebViewBarricade"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoComplete]
+"Append Completion"="yes"
+"AutoSuggest"="yes"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz]
+"NoRun"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico]
+"Application"="shimgvw.dll"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\OpenWithList]
+"a"="shimgvw.dll"
+"MRUList"="a"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo]
+"Application"="Notepad.exe"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithProgids]
+"MSInfo.Document"=hex(0)
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList]
+"a"="Notepad.exe"
+"MRUList"="a"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{208D2C60-3AEA-1069-A2D7-08002B30309D}"=dword:00000001
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{450D8FBA-AD25-11D0-98A8-0800361B1103}"=dword:00000000
+"{871C5380-42A0-1069-A2EA-08002B30309D}"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage]
+"Favorites"=hex:FF
+"FavoritesChanges"=dword:00000003
+"FavoritesResolve"=-
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\Streams\Desktop]
+"TaskbarWinXP"=hex:0C,00,00,00,08,00,00,00,03,00,00,00,00,00,00,00,B0,E2,2B,D8,64,57,D0,11,A9,6E,00,C0,4F,D7,05,A2,22,00,1C,00,0A,11,00,00,1A,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,4C,00,00,00,01,14,02,00,00,00,00,00,C0,00,00,00,00,00,00,46,81,00,00,00,11,00,00,00,CC,8D,B0,D7,9C,97,CE,01,58,DD,D2,A6,87,98,CE,01,5A,67,9E,E6,9C,97,CE,01,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,15,02,14,00,1F,50,E0,4F,D0,20,EA,3A,69,10,A2,D8,08,00,2B,30,30,9D,19,00,2F,43,3A,5C,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,5C,00,31,00,00,00,00,00,0C,43,A7,A5,10,00,44,4F,43,55,4D,45,7E,31,00,00,44,00,03,00,04,00,EF,BE,0C,43,F2,B8,0E,43,34,05,14,00,00,00,44,00,6F,00,63,00,75,00,6D,00,65,00,6E,00,74,00,73,00,20,00,61,00,6E,00,64,00,20,00,53,00,65,00,74,00,74,00,69,00,6E,00,67,00,73,00,00,00,18,00,4A,00,31,00,00,00,00,00,0C,43,98,AD,10,00,41,44,4D,49,4E,49,7E,31,00,00,32,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,00,00,41,00,64,00,6D,00,69,00,6E,00,69,00,73,00,74,00,72,00,61,00,74,00,6F,00,72,00,00,00,18,00,64,00,31,00,00,00,00,00,0C,43,07,B9,13,00,41,50,50,4C,49,43,7E,31,00,00,4C,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,36,00,41,00,70,00,70,00,6C,00,69,00,63,00,61,00,74,00,69,00,6F,00,6E,00,20,00,44,00,61,00,74,00,61,00,00,00,40,73,68,65,6C,6C,33,32,2E,64,6C,6C,2C,2D,32,31,37,36,35,00,18,00,42,00,31,00,00,00,00,00,6C,31,97,96,14,00,4D,49,43,52,4F,53,7E,31,00,00,2A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,99,96,14,00,00,00,4D,00,69,00,63,00,72,00,6F,00,73,00,6F,00,66,00,74,00,00,00,18,00,52,00,31,00,00,00,00,00,6C,31,9A,96,10,00,49,4E,54,45,52,4E,7E,31,00,00,3A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,9C,96,14,00,00,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,00,00,18,00,48,00,31,00,00,00,00,00,6C,31,9C,96,11,00,51,55,49,43,4B,4C,7E,31,00,00,30,00,03,00,04,00,EF,BE,6C,31,99,96,6C,31,9C,96,14,00,00,00,51,00,75,00,69,00,63,00,6B,00,20,00,4C,00,61,00,75,00,6E,00,63,00,68,00,00,00,18,00,00,00,60,00,00,00,03,00,00,A0,58,00,00,00,00,00,00,00,63,6F,6D,70,75,74,65,72,00,00,00,00,00,00,00,00,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,10,00,00,00,05,00,00,A0,1A,00,00,00,37,01,00,00,00,00,00,00,08,00,00,00,02,00,00,00,0C,01,00,00,01,00,00,00,02,00,00,00,8A,00,00,00,01,00,00,00,7C,00,32,00,2F,03,00,00,0C,43,AF,A5,20,00,4C,41,55,4E,43,48,7E,31,2E,4C,4E,4B,00,00,60,00,03,00,04,00,EF,BE,0C,43,AF,A5,0E,43,58,05,14,00,00,00,4C,00,61,00,75,00,6E,00,63,00,68,00,20,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,20,00,42,00,72,00,6F,00,77,00,73,00,65,00,72,00,2E,00,6C,00,6E,00,6B,00,00,00,1C,00,00,00,00,00,00,00,76,00,00,00,00,00,00,00,68,00,32,00,4F,00,00,00,0C,43,B3,A5,20,00,53,48,4F,57,44,45,7E,31,2E,53,43,46,00,00,4C,00,03,00,04,00,EF,BE,0C,43,B3,A5,0E,43,58,05,14,00,36,00,53,00,68,00,6F,00,77,00,20,00,44,00,65,00,73,00,6B,00,74,00,6F,00,70,00,2E,00,73,00,63,00,66,00,00,00,40,78,70,73,70,32,72,65,73,2E,64,6C,6C,2C,2D,36,31,30,30,00,1C,00,00,00,00,00,00,00,3C,00,00,00,60,07,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,01,00,00,00,AA,4F,28,68,48,6A,D0,11,8C,78,00,C0,4F,D9,18,B4,EE,03,00,00,60,0D,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,8B,8A,0D,54,3F,1C,32,4E,81,32,53,0F,6A,50,20,90,1E,00,00,00,60,05,00,00,00,00,00,00,18,00,00,00,00,00,00,00,00,00,00,00,18,00,00,00,00,00,00,00,01,00,00,00
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\WebView\BarricadedFolders]
+"shell:ControlPanelFolder"=dword:00000000
+"shell:ProgramFiles"=dword:00000000
+"shell:System"=dword:0000000
+"shell:SystemDriveRootFolder"=dword:00000000
+"shell:Windows"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"EnableAutodial"=dword:00000000
+"EnableNegotiate"=dword:00000000
+"MaxConnectionsPerServer"=dword:00000020
+"ProxyHttp1.1"=dword:00000001
+"SecureProtocols"=dword:000000A8
+"SyncMode5"=dword:00000003
+"WarnOnZoneCrossing"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache]
+"Persistent"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Url History]
+"DaysToKeep"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Passport]
+"RegistrationCompleted"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000000
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000000
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1408"=dword:00000000
+"1409"=dword:00000003
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000003
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00020000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000000
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000000
+"2201"=dword:00000000
+"2300"=dword:00000001
+"2301"=dword:00000003
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00010500
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000000
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00011000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000003
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000000
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1809"=dword:00000000
+"180B"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"2000"=dword:00000003
+"2005"=dword:00000003
+"2100"=dword:00000003
+"2101"=dword:00000003
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000003
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000003
+"2301"=dword:00000000
+"2400"=dword:00000003
+"2401"=dword:00000003
+"2402"=dword:00000003
+"2600"=dword:00000003
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00012000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"ForceClassicControlPanel"=dword:00000001
+"GreyMSIAds"=dword:00000001
+"MaxRecentDocs"=dword:0xF
+"MemCheckBoxInRunDlg"=dword:00000001
+"NoNetworkConnections"=dword:00000001
+"NoRecentDocsHistory"=dword:00000001
+"NoRecentDocsMenu"=hex:01,00,00,00
+"NoSMConfigurePrograms"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoInternetOpenWith"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Run]
+"ctfmon.exe"="C:\\Windows\\System32\\ctfmon.exe"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Webcheck]
+"NoScheduledUpdates"=dword:00000000
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\Shell]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"FFlags"=dword:00000225
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\Bags\1\Shell]
+"Mode"=dword:00000006
+"ShowCmd"=dword:00000003
+"WFlags"=dword:00000002
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{00021400-0000-0000-C000-000000000046}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{208D2C60-3AEA-1069-A2D7-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{2227A280-3AEA-1069-A2DE-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{450D8FBA-AD25-11D0-98A8-0800361B1103}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{46E06680-4BF0-11D1-83EE-00A0C90DC849}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{871C5380-42A0-1069-A2EA-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{E211B736-43FD-11D1-9EFB-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{F3364BA0-65B9-11CE-A9BA-00AA004AE837}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FB0C9C8A-6C50-11D1-9F1D-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FBEB8A05-BEEE-4442-804E-409D6C4515E9}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows\ShellNoRoam\MUICache]
+"@browselc.dll,-13137"="&Address"
+"@browselc.dll,-13138"="&Links"
+"@xpsp2res.dll,-6100"="Show Desktop"
+"@xpsp1res.dll,-11003"="Launch Internet Explorer Browser"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\Devices\Microsoft XPS Document Writer]
+"winspool,Ne00:"=-
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts\Microsoft XPS Document Writer]
+"winspool,Ne00:,15,45"=-
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\Windows\Device]
+"Microsoft XPS Document Writer,winspool,Ne00:"=-
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+"Preferences"=hex:9c,02,00,00,f4,01,00,00,02,00,00,00,01,00,00,00,00,00,00,00,0a,00,00,00,0a,00,00,00,a7,01,00,00,d1,01,00,00,02,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,b3,00,ae,01,76,00,60,00,45,00,68,00,5c,00,55,00,3c,00,3c,00,3c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,0e,00,00,00,13,00,00,00,14,00,00,00,15,00,00,00,16,00,00,00,17,00,00,00,18,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,78,00,00,00,24,00,00,00,6c,00,00,00,23,00,00,00,3f,00,00,00,46,00,00,00,6e,00,00,00,54,00,00,00,58,00,00,00,75,00,00,00,61,00,00,00,5a,00,00,00,b1,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,0b,00,00,00,0c,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,cb,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00
+"UsrColumnSettings"=hex:1c,0c,00,00,34,04,00,00,00,00,00,00,ab,00,00,00,01,00,00,00,1d,0c,00,00,35,04,00,00,01,00,00,00,35,00,00,00,01,00,00,00,1e,0c,00,00,36,04,00,00,00,00,00,00,45,00,00,00,01,00,00,00,1f,0c,00,00,39,04,00,00,00,00,00,00,58,00,00,00,01,00,00,00,20,0c,00,00,37,04,00,00,00,00,00,00,34,00,00,00,01,00,00,00
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"AutoRestartShell"=dword:00000001
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mchkr_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mhrtz_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mrvse_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mshvl_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-19\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mbckg_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-20\Control Panel\Desktop]
+"CoolSwitchColumns"="10"
+"CoolSwitchRows"="5"
+"FontSmoothing"="2"
+"MenuShowDelay"="2"
+"MUILanguagePending"="00000409"
+"MultiUILanguageId"="00000409"
+"PaintDesktopVersion"=dword:00000000
+"ScreenSaveActive"="0"
+"ScreenSaveTimeOut"="60"
+"scrnsave.exe"=""
+
+[HKEY_USERS\S-1-5-20\Control Panel\Desktop\WindowMetrics]
+"Shell Icon BPP"="32"
+
+[HKEY_USERS\S-1-5-20\Control Panel\International]
+"iCalendarType"="1"
+"iCountry"="371"
+"iCurrDigits"="2"
+"iCurrency"="2"
+"iDate"="2"
+"iDigits"="2"
+"iFirstDayOfWeek"="0"
+"iFirstWeekOfYear"="2"
+"iLZero"="1"
+"iMeasure"="0"
+"iNegCurr"="9"
+"iNegNumber"="1"
+"iTime"="1"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"NumShape"="1"
+"s1159"=""
+"s2359"=""
+"sCountry"="Latvia"
+"sCurrency"="Ls"
+"sDate"="."
+"sDecimal"=","
+"sGrouping"="3;0"
+"sLanguage"="LVI"
+"sList"=";"
+"sMonDecimalSep"=","
+"sMonGrouping"="3;0"
+"sMonThousandSep"=" "
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sShortDate"="yyyy.MM.dd."
+"sThousand"=" "
+"sTime"=":"
+"sTimeFormat"="H:mm:ss"
+"sPositiveSign"=""
+
+[HKEY_USERS\S-1-5-20\Control Panel\International\Geo]
+"Nation"="140"
+
+[HKEY_USERS\S-1-5-20\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2"
+
+[HKEY_USERS\S-1-5-20\Control Panel\Mouse]
+"MouseSensitivity"="20"
+
+[HKEY_USERS\S-1-5-20\Control Panel\PowerCfg\GlobalPowerPolicy]
+"Policies"=hex:01,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,00,00,00,00,03,00,00,00,10,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,02,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,03,00,00,00,02,00,00,00,04,00,00,C0,01,00,00,00,04,00,00,00,01,00,00,00,0A,00,00,00,00,00,00,00,03,00,00,00,01,00,01,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,02,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,00,00,00,12,00,00,00
+
+[HKEY_USERS\S-1-5-20\Keyboard Layout\Preload]
+"1"="00000426"
+"2"="00000419"
+
+[HKEY_USERS\S-1-5-20\Keyboard Layout\Substitutes]
+"00000426"="00010426"
+
+[HKEY_USERS\S-1-5-20\Software\Ahead\Nero - Burning Rom\Recorder]
+"ShowSingleRecorderSpeed"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\CTF]
+"Disable Thread Input Manager"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\CTF\MSUTB]
+"ShowDeskBand"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Feeds]
+"DefaultInterval"=dword:0000000F
+"SyncStatus"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Connection Wizard]
+"Completed"=hex:01,00,00,00
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer]
+"Show_FullURL"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\CommandBar]
+"CommandBarEnabled"=dword:00000000
+"TextOption"=dword:00000002
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Default HTML Editor]
+"Description"="Notepad"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Default HTML Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Desktop\Components]
+"GeneralFlags"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Feed Discovery]
+"Sound"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Feeds]
+"AutoMarkAsReadOPV"=dword:00000001
+"TurnOffOPV"=dword:00000000
+"TurnOnClipButton"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\International]
+"AutoDetect"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\LinksBar]
+"Enabled"=dword:00000000
+"UpdatedSound"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Main]
+"AlwaysShowMenus"=dword:00000001
+"Check_Associations"="no"
+"Enable AutoImageResize"="yes"
+"FavIntelliMenus"="yes"
+"FormSuggest Passwords"="yes"
+"FormSuggest PW Ask"="yes"
+"IE8RunOnceCompletionTime"=hex:
+"IE8RunOnceLastShown"=dword:00000001
+"IE8RunOnceLastShown_TIMESTAMP"=hex:
+"IE8RunOncePerInstallCompleted"=dword:00000001
+"IE8TourShown"=dword:00000001
+"IE8TourShownTime"=hex:
+"NotifyDownloadComplete"="yes"
+"NoUpdateCheck"=dword:00000000
+"NscSingleExpand"=dword:00000001
+"Play_Animations"="yes"
+"Play_Background_Sounds"="yes"
+"RunOnceComplete"=dword:00000001
+"SmoothScroll"=dword:00000001
+"Start Page"="about:blank"
+"Use FormSuggest"="yes"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Main\WindowsSearch]
+"AutoCompleteGroups"=dword:00000007
+"EnabledScopes"=dword:00000007
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\New Windows]
+"PopupMgr"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\PhishingFilter]
+"EnabledV8"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Privacy]
+"ClearBrowsingHistoryOnExit"=dword:00000001
+"CleanForms"=dword:00000001
+"CleanInPrivateBlocking"=dword:00000001
+"CleanPassword"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Safety\PrivacIE]
+"DisableToolbars"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\SearchScopes\{6B528F7B-1290-4F85-BA27-8515B393FF4B}]
+"FaviconPath"="C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Microsoft\\Internet Explorer\\Services\\search_{6B528F7B-1290-4F85-BA27-8515B393FF4B}.ico"
+"FaviconURLFallback"="https://www.google.lv/favicon.ico"
+"SuggestionsURL"="http://clients5.google.com/complete/search?q={searchTerms}&client=ie8"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Internet Explorer\Suggested Sites]
+"Enabled"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\MediaPlayer\MediaLibraryUI\MLTreeState]
+"LocalLibrary"=dword:00000000
+"Playlists"=dword:00000000
+"WMPCP"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\MediaPlayer\Player\Settings]
+"EnableDVDUI"="yes"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\MediaPlayer\Preferences]
+"AutoAddMusicToLibrary"=dword:00000001
+"AutoAddRemovable"=dword:00000000
+"AutoCopyCD"=dword:00000000
+"AutoEjectCD"=dword:00000001
+"AutoMetadataUpdate"=dword:00000001
+"AutoOrganize"=dword:00000001
+"AutoRename"=dword:00000001
+"CDRecordDRM"=dword:00000001
+"CDRecordMode"=dword:00000000
+"CDRecordMP3"=dword:00000000
+"CurrentDisplayView"="VideoView"
+"CurrentEffectPreset"=dword:00000003
+"CurrentEffectType"="Bars"
+"DoNotShowAnchor"=dword:00000001
+"EnableScreensaver"=dword:00000000
+"FlushRatingsToFiles"=dword:00000001
+"ForceOnline"=dword:00000000
+"LastContainerV11"="{CC3D0211-9655-11D3-BA86-0000F80855E6}"
+"LibraryBasketVisibleNowPlaying"=dword:00000000
+"LibraryTreeVisible"=dword:00000001
+"MaxBandwidth"=dword:7FFFFFFF
+"MetadataRetrieval"=dword:00000003
+"MP3RecordRate"=dword:0000FA00
+"PromptLicenseBackup"=dword:00000001
+"SendUserGUID"=hex:01
+"SilentAcquisition"=dword:00000001
+"ShowAlbumArt"=dword:00000000
+"ShowMinimizeDialog"=dword:00000000
+"StartInMediaGuide"=dword:00000001
+"UpgradeCheckFrequency"=dword:00000000
+"UpgradeCodecPrompt"=dword:00000001
+"UsageTracking"=dword:00000001
+"Volume"=dword:00000064
+"WMARecordRate"=dword:0002EE00
+"WMARecordQuality"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\MediaPlayer\Setup\UserOptions]
+"QuickLaunchShortcut"="no"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\MediaPlayer\Splitters]
+"LeftV11"=dword:00000096
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\MessengerService]
+"AppSettings"=hex:02,01,00,80
+"CEIP Preference"=dword:00000001
+"DisableInkIM"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Notepad]
+"iWindowPosDX"=dword:00000400
+"iWindowPosDY"=dword:000002F8
+"iWindowPosX"=dword:00000000
+"iWindowPosY"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\PCHealth\HelpCtr\UserSettings\SearchParam\Professional_32\1033\D23D0028-A543-4767-B4AA-1581D8E1CDB2]
+"Product"="msall"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\PowerPoint Viewer\11.0]
+"EULAAccepted"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Shared\HTML\Default Editor\shell\edit\command]
+@="\"C:\\Windows\\System32\\Notepad.exe\" %1"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Spider]
+"LoadAtStart"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Options]
+"Maximized"=dword:00000001
+"Units"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\App Management]
+"ShowUpdates"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Applets\Tour]
+"RunCount "=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Text]
+"BarState0"=dword:0000000F
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Applets\Paint\View]
+"WindowPlacement"=hex:2C,00,00,00,02,00,00,00,03,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF,FF,FF,FF,FF,FF,00,00,00,00,00,00,00,00,13,01,00,00,9A,01,00,00
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"DesktopProcess"=dword:00000001
+"EnableAutoTray"=dword:00000000
+"FolderContentsInfoTip"=dword:00000001
+"link"=hex:00,00,00,00
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"CascadeControlPanel"="no"
+"CascadeMyDocuments"="no"
+"CascadeMyPictures"="no"
+"CascadePrinters"="no"
+"DisableThumbnailCache"=dword:00000001
+"FolderContentsInfoTip"=dword:00000001
+"Hidden"=dword:00000001
+"link"=hex:00,00,00,00
+"ListviewShadow"=dword:00000001
+"NoNetCrawling"=dword:00000000
+"SeparateProcess"=dword:00000000
+"Start_NotifyNewApps"=dword:00000001
+"Start_ShowHelp"=dword:00000000
+"Start_ShowNetPlaces"=dword:00000000
+"Start_ShowPrinters"=dword:00000000
+"Start_ShowSetProgramAccessAndDefaults"=dword:00000000
+"StartMenuAdminTools"="no"
+"StartMenuChange"=dword:00000001
+"StartMenuFavorites"=dword:00000000
+"StartMenuRun"=dword:00000001
+"TaskbarSizeMove"=dword:00000000
+"TaskbarGlomming"=dword:00000001
+"WebViewBarricade"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoComplete]
+"Append Completion"="yes"
+"AutoSuggest"="yes"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\CleanupWiz]
+"NoRun"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico]
+"Application"="shimgvw.dll"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\OpenWithList]
+"a"="shimgvw.dll"
+"MRUList"="a"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo]
+"Application"="Notepad.exe"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithProgids]
+"MSInfo.Document"=hex(0)
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList]
+"a"="Notepad.exe"
+"MRUList"="a"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{208D2C60-3AEA-1069-A2D7-08002B30309D}"=dword:00000001
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{450D8FBA-AD25-11D0-98A8-0800361B1103}"=dword:00000000
+"{871C5380-42A0-1069-A2EA-08002B30309D}"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage]
+"Favorites"=hex:FF
+"FavoritesChanges"=dword:00000003
+"FavoritesResolve"=-
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\Streams\Desktop]
+"TaskbarWinXP"=hex:0C,00,00,00,08,00,00,00,03,00,00,00,00,00,00,00,B0,E2,2B,D8,64,57,D0,11,A9,6E,00,C0,4F,D7,05,A2,22,00,1C,00,0A,11,00,00,1A,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,4C,00,00,00,01,14,02,00,00,00,00,00,C0,00,00,00,00,00,00,46,81,00,00,00,11,00,00,00,CC,8D,B0,D7,9C,97,CE,01,58,DD,D2,A6,87,98,CE,01,5A,67,9E,E6,9C,97,CE,01,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,15,02,14,00,1F,50,E0,4F,D0,20,EA,3A,69,10,A2,D8,08,00,2B,30,30,9D,19,00,2F,43,3A,5C,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,5C,00,31,00,00,00,00,00,0C,43,A7,A5,10,00,44,4F,43,55,4D,45,7E,31,00,00,44,00,03,00,04,00,EF,BE,0C,43,F2,B8,0E,43,34,05,14,00,00,00,44,00,6F,00,63,00,75,00,6D,00,65,00,6E,00,74,00,73,00,20,00,61,00,6E,00,64,00,20,00,53,00,65,00,74,00,74,00,69,00,6E,00,67,00,73,00,00,00,18,00,4A,00,31,00,00,00,00,00,0C,43,98,AD,10,00,41,44,4D,49,4E,49,7E,31,00,00,32,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,00,00,41,00,64,00,6D,00,69,00,6E,00,69,00,73,00,74,00,72,00,61,00,74,00,6F,00,72,00,00,00,18,00,64,00,31,00,00,00,00,00,0C,43,07,B9,13,00,41,50,50,4C,49,43,7E,31,00,00,4C,00,03,00,04,00,EF,BE,0C,43,A7,A5,0E,43,34,05,14,00,36,00,41,00,70,00,70,00,6C,00,69,00,63,00,61,00,74,00,69,00,6F,00,6E,00,20,00,44,00,61,00,74,00,61,00,00,00,40,73,68,65,6C,6C,33,32,2E,64,6C,6C,2C,2D,32,31,37,36,35,00,18,00,42,00,31,00,00,00,00,00,6C,31,97,96,14,00,4D,49,43,52,4F,53,7E,31,00,00,2A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,99,96,14,00,00,00,4D,00,69,00,63,00,72,00,6F,00,73,00,6F,00,66,00,74,00,00,00,18,00,52,00,31,00,00,00,00,00,6C,31,9A,96,10,00,49,4E,54,45,52,4E,7E,31,00,00,3A,00,03,00,04,00,EF,BE,6C,31,96,96,6C,31,9C,96,14,00,00,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,00,00,18,00,48,00,31,00,00,00,00,00,6C,31,9C,96,11,00,51,55,49,43,4B,4C,7E,31,00,00,30,00,03,00,04,00,EF,BE,6C,31,99,96,6C,31,9C,96,14,00,00,00,51,00,75,00,69,00,63,00,6B,00,20,00,4C,00,61,00,75,00,6E,00,63,00,68,00,00,00,18,00,00,00,60,00,00,00,03,00,00,A0,58,00,00,00,00,00,00,00,63,6F,6D,70,75,74,65,72,00,00,00,00,00,00,00,00,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,5C,9D,FD,81,CF,D6,05,4F,9C,10,75,31,4E,48,F7,CF,6F,88,9A,43,7A,04,E3,11,8C,96,00,0C,29,6A,43,24,10,00,00,00,05,00,00,A0,1A,00,00,00,37,01,00,00,00,00,00,00,08,00,00,00,02,00,00,00,0C,01,00,00,01,00,00,00,02,00,00,00,8A,00,00,00,01,00,00,00,7C,00,32,00,2F,03,00,00,0C,43,AF,A5,20,00,4C,41,55,4E,43,48,7E,31,2E,4C,4E,4B,00,00,60,00,03,00,04,00,EF,BE,0C,43,AF,A5,0E,43,58,05,14,00,00,00,4C,00,61,00,75,00,6E,00,63,00,68,00,20,00,49,00,6E,00,74,00,65,00,72,00,6E,00,65,00,74,00,20,00,45,00,78,00,70,00,6C,00,6F,00,72,00,65,00,72,00,20,00,42,00,72,00,6F,00,77,00,73,00,65,00,72,00,2E,00,6C,00,6E,00,6B,00,00,00,1C,00,00,00,00,00,00,00,76,00,00,00,00,00,00,00,68,00,32,00,4F,00,00,00,0C,43,B3,A5,20,00,53,48,4F,57,44,45,7E,31,2E,53,43,46,00,00,4C,00,03,00,04,00,EF,BE,0C,43,B3,A5,0E,43,58,05,14,00,36,00,53,00,68,00,6F,00,77,00,20,00,44,00,65,00,73,00,6B,00,74,00,6F,00,70,00,2E,00,73,00,63,00,66,00,00,00,40,78,70,73,70,32,72,65,73,2E,64,6C,6C,2C,2D,36,31,30,30,00,1C,00,00,00,00,00,00,00,3C,00,00,00,60,07,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,01,00,00,00,AA,4F,28,68,48,6A,D0,11,8C,78,00,C0,4F,D9,18,B4,EE,03,00,00,60,0D,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,00,00,00,00,1E,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,8B,8A,0D,54,3F,1C,32,4E,81,32,53,0F,6A,50,20,90,1E,00,00,00,60,05,00,00,00,00,00,00,18,00,00,00,00,00,00,00,00,00,00,00,18,00,00,00,00,00,00,00,01,00,00,00
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\WebView\BarricadedFolders]
+"shell:ControlPanelFolder"=dword:00000000
+"shell:ProgramFiles"=dword:00000000
+"shell:System"=dword:0000000
+"shell:SystemDriveRootFolder"=dword:00000000
+"shell:Windows"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"EnableAutodial"=dword:00000000
+"EnableNegotiate"=dword:00000000
+"MaxConnectionsPerServer"=dword:00000020
+"ProxyHttp1.1"=dword:00000001
+"SecureProtocols"=dword:000000A8
+"SyncMode5"=dword:00000003
+"WarnOnZoneCrossing"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache]
+"Persistent"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Content]
+"CacheLimit"=dword:00002000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Url History]
+"DaysToKeep"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Passport]
+"RegistrationCompleted"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000000
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000000
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1408"=dword:00000000
+"1409"=dword:00000003
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000003
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1C00"=dword:00020000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000000
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000000
+"2201"=dword:00000000
+"2300"=dword:00000001
+"2301"=dword:00000003
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000003
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00010500
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000000
+"1208"=dword:00000000
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000000
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000000
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000000
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000000
+"2104"=dword:00000000
+"2105"=dword:00000000
+"2106"=dword:00000000
+"2107"=dword:00000000
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00011000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000001
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000003
+"1608"=dword:00000000
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1C00"=dword:00010000
+"2000"=dword:00000000
+"2005"=dword:00000003
+"2100"=dword:00000000
+"2101"=dword:00000000
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000000
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000001
+"2301"=dword:00000000
+"2400"=dword:00000000
+"2401"=dword:00000000
+"2402"=dword:00000000
+"2600"=dword:00000000
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1207"=dword:00000003
+"1208"=dword:00000003
+"1209"=dword:00000003
+"120A"=dword:00000003
+"120B"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1408"=dword:00000003
+"1409"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000003
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"160A"=dword:00000003
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1809"=dword:00000000
+"180B"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"2000"=dword:00000003
+"2005"=dword:00000003
+"2100"=dword:00000003
+"2101"=dword:00000003
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2104"=dword:00000003
+"2105"=dword:00000003
+"2106"=dword:00000003
+"2107"=dword:00000003
+"2200"=dword:00000003
+"2201"=dword:00000003
+"2300"=dword:00000003
+"2301"=dword:00000000
+"2400"=dword:00000003
+"2401"=dword:00000003
+"2402"=dword:00000003
+"2600"=dword:00000003
+"2700"=dword:00000000
+"2708"=dword:00000000
+"2709"=dword:00000000
+"CurrentLevel"=dword:00012000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"ForceClassicControlPanel"=dword:00000001
+"GreyMSIAds"=dword:00000001
+"MaxRecentDocs"=dword:0xF
+"MemCheckBoxInRunDlg"=dword:00000001
+"NoNetworkConnections"=dword:00000001
+"NoRecentDocsHistory"=dword:00000001
+"NoRecentDocsMenu"=hex:01,00,00,00
+"NoSMConfigurePrograms"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoInternetOpenWith"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Run]
+"ctfmon.exe"="C:\\Windows\\System32\\ctfmon.exe"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Webcheck]
+"NoScheduledUpdates"=dword:00000000
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\Shell]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"FFlags"=dword:00000225
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam]
+"BagMRU Size"=dword:000000FA
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\Bags\1\Shell]
+"Mode"=dword:00000006
+"ShowCmd"=dword:00000003
+"WFlags"=dword:00000002
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{00021400-0000-0000-C000-000000000046}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{208D2C60-3AEA-1069-A2D7-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{2227A280-3AEA-1069-A2DE-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{450D8FBA-AD25-11D0-98A8-0800361B1103}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{46E06680-4BF0-11D1-83EE-00A0C90DC849}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{871C5380-42A0-1069-A2EA-08002B30309D}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{D6277990-4C6A-11CF-8D87-00AA0060F5BF}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{E211B736-43FD-11D1-9EFB-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{F3364BA0-65B9-11CE-A9BA-00AA004AE837}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FB0C9C8A-6C50-11D1-9F1D-0000F8757FCD}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\DUIBags\ShellFolders\{FBEB8A05-BEEE-4442-804E-409D6C4515E9}]
+"ExpandDetailsTasks"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\ShellNoRoam\MUICache]
+"@browselc.dll,-13137"="&Address"
+"@browselc.dll,-13138"="&Links"
+"@xpsp2res.dll,-6100"="Show Desktop"
+"@xpsp1res.dll,-11003"="Launch Internet Explorer Browser"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\Devices\Microsoft XPS Document Writer]
+"winspool,Ne00:"=-
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts\Microsoft XPS Document Writer]
+"winspool,Ne00:,15,45"=-
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\Windows\Device]
+"Microsoft XPS Document Writer,winspool,Ne00:"=-
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\TaskManager]
+"Preferences"=hex:9c,02,00,00,f4,01,00,00,02,00,00,00,01,00,00,00,00,00,00,00,0a,00,00,00,0a,00,00,00,a7,01,00,00,d1,01,00,00,02,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,b3,00,ae,01,76,00,60,00,45,00,68,00,5c,00,55,00,3c,00,3c,00,3c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,0e,00,00,00,13,00,00,00,14,00,00,00,15,00,00,00,16,00,00,00,17,00,00,00,18,00,00,00,ff,ff,ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,02,00,00,00,78,00,00,00,24,00,00,00,6c,00,00,00,23,00,00,00,3f,00,00,00,46,00,00,00,6e,00,00,00,54,00,00,00,58,00,00,00,75,00,00,00,61,00,00,00,5a,00,00,00,b1,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,6b,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,00,00,00,07,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,0b,00,00,00,0c,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,cb,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00
+"UsrColumnSettings"=hex:1c,0c,00,00,34,04,00,00,00,00,00,00,ab,00,00,00,01,00,00,00,1d,0c,00,00,35,04,00,00,01,00,00,00,35,00,00,00,01,00,00,00,1e,0c,00,00,36,04,00,00,00,00,00,00,45,00,00,00,01,00,00,00,1f,0c,00,00,39,04,00,00,00,00,00,00,58,00,00,00,01,00,00,00,20,0c,00,00,37,04,00,00,00,00,00,00,34,00,00,00,01,00,00,00
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"AutoRestartShell"=dword:00000001
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mchkr_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mhrtz_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mrvse_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mshvl_zm_***]
+"SkipOpeningQuestion"="LONG, 1"
+
+[HKEY_USERS\S-1-5-20\Software\Microsoft\zone.com\Free Games 1.0\Preferences\Windows User\mbckg_zm_***]
+"SkipOpeningQuestion"="LONG, 1"

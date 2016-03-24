@@ -1,0 +1,184 @@
+a {
+  background: no-repeat center;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  display: inline-block;
+  height: 100px;
+  margin: 5px;
+  padding: 15px;
+  width: 100px;
+}
+
+a:hover {
+  background-color: #eef;
+  border-color: #059;
+}
+
+body {
+  color: #059;
+  font: 18px "Segoe UI Light", Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  width: 25%;
+}
+
+button,
+input {
+  height: 100%;
+}
+
+button,
+input,
+select {
+  background: #eef;
+  border: none;
+  border-radius: 10px;
+  color: inherit;
+  font: inherit;
+  padding: 0 5px;
+}
+
+form,
+select {
+  height: 45px;
+}
+
+input {
+  width: 70%;
+}
+
+select {
+  margin-top: 30px;
+  width: 32%;
+}
+
+button:focus,
+button:hover,
+input:focus,
+input:hover,
+select:focus,
+select:hover {
+  background: #bdf;
+  outline: 0;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2,
+h3 {
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.clicked {
+  background-color: #add;
+}
+
+.clicked:hover {
+  background-color: #add;
+}
+
+.content {
+  margin: auto;;
+  max-width: 1024px;
+  padding: 8px 32px;
+}
+
+.content h2 {
+  font-size: 50px;
+}
+
+.header {
+  background-color: #059;
+  color: white;
+  padding: 16px;
+}
+
+.header a {
+  display: inline;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header a:hover {
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+.info {
+  text-align: left;
+}
+
+.KMS,
+.PE,
+.proof {
+  font-size: 25px;
+  position: relative;
+}
+
+.KMS:hover,
+.PE:hover,
+.proof:hover {
+  border-style: solid;
+}
+
+.KMS:after,
+.PE:after,
+.proof:after {
+  bottom: 30px;
+  color: black;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+.KMS:after {
+  content: 'Office 2010 Activator';
+}
+
+.PE:after {
+  bottom: 50px;
+  content: 'Windows PE';
+}
+
+.proof:after {
+  content: 'Proofing Tools';
+}
+
+.suggested {
+  background-color: #ef8;
+}
+
+.suggested:hover {
+  background-color: #ef8;
+}
+
+::-webkit-input-placeholder {
+   color: #059;
+}
+
+:-moz-placeholder {
+   color: #059;
+}
+
+::-moz-placeholder {
+   color: #059;
+}
+
+:-ms-input-placeholder {
+   color: #059;
+}
