@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang=en>
-<title>qiiwexc v16.3.27</title>
+<title>qiiwexc v16.3.29</title>
 
 <meta charset=utf-8>
 <meta name=title content="qiiwexc: software download, install, preferences, utilities, information">
@@ -29,7 +29,7 @@
 <link rel=stylesheet href=stylesheet.css>
 <link rel=stylesheet href=images.css>
 
-<p class=hidden>qiiwexc: software download, install, preferences, utilities, information</p>
+<h2 class=hidden>qiiwexc: software download, install, preferences, utilities, information</h2>
 
 <script src=startup.js></script>
 
@@ -40,7 +40,7 @@
 
 <div class=header>
   <h1>qiiwexc</h1>
-  <h2>v16.3.27</h2>
+  <h2>v16.3.29</h2>
   <h3><a href=downloads/qiiwexc.exe>New qiiwexc (in development)</a></h3>
 </div>
 
@@ -143,24 +143,6 @@
     <p><b>Check disk:</b> <i>CHKDSK /f</i> or <i>CHKDSK /r</i></p>
     <p><b>List all files in directory:</b> <i>for /r . %%g in (*.*) do echo %%~nxg>> _list.txt</i></p>
     <p><b>Rename files:</b> <i>ren old_name new_name</i></p>
-    <p><b>Get admin rights</b><br><i>
-      @echo off<br>
-      >nul 2>&amp;1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"<br>
-      if '%errorlevel%' NEQ '0' (<br>
-      echo Requesting administrative privileges...<br>
-      goto UACPrompt<br>
-      ) else ( goto gotAdmin )<br>
-      :UACPrompt<br>
-      echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"<br>
-      set params = %*:"=""<br>
-      echo UAC.ShellExecute "%~s0", "%params%", "", "runas", 1 >> "%temp%\getadmin.vbs"<br>
-      "%temp%\getadmin.vbs"<br>
-      exit /B<br>
-      :gotAdmin<br>
-      if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )<br>
-      pushd "%CD%"<br>
-      CD /D "%~dp0"<br>
-    </i></p>
   </div>
 </div>
 
