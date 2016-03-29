@@ -7,6 +7,13 @@
 <meta name=description content="qiiwexc: software download, install, preferences, utilities, information">
 <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
 
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/qiiwexc.github.io\/","name":"qiiwexc"}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/qiiwexc.github.io\/","name":"qiiwexc"}</script>
+
+<meta name=msapplication-TileColor content=#0aa>
+<meta name=msapplication-TileImage content=mstile-144x144.png>
+<meta name=theme-color content=#fff>
+
 <link rel=apple-touch-icon sizes=57x57 href=apple-touch-icon-57x57.png>
 <link rel=apple-touch-icon sizes=60x60 href=apple-touch-icon-60x60.png>
 <link rel=apple-touch-icon sizes=72x72 href=apple-touch-icon-72x72.png>
@@ -22,16 +29,11 @@
 <link rel=icon type=image/png href=favicon-16x16.png sizes=16x16>
 <link rel=manifest href=manifest.json>
 <link rel=mask-icon href=safari-pinned-tab.svg>
-<meta name=msapplication-TileColor content=#0aa>
-<meta name=msapplication-TileImage content=mstile-144x144.png>
-<meta name=theme-color content=#fff>
 
 <link rel=stylesheet href=stylesheet.css>
 <link rel=stylesheet href=images.css>
 
 <h2 class=hidden>qiiwexc: software download, install, preferences, utilities, information</h2>
-
-<script src=startup.js></script>
 
 <div style=position:absolute;left:-10000px;>
   <img src=http://mc.yandex.ru/watch/35198485 alt=qiiwexc>
@@ -141,10 +143,9 @@
     <p><b>SFC:</b> <i>sfc /scannow</i> (administrator rights required)<br></p>
     <p><b>Parse SFC log:</b> <i>findstr /c:"[SR]" %windir%\Logs\CBS\CBS.log >%userprofile%\Desktop\sfcdetails.txt</i></p>
     <p><b>Check disk:</b> <i>CHKDSK /f</i> or <i>CHKDSK /r</i></p>
-    <p><b>List all files in directory:</b> <i>for /r . %%g in (*.*) do echo %%~nxg>> _list.txt</i></p>
-    <p><b>Rename files:</b> <i>ren old_name new_name</i></p>
   </div>
 </div>
 
+<script src=startup.js></script>
 <script src=http://code.jquery.com/jquery-1.12.2.min.js></script>
 <script src=main.js></script>
