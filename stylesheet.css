@@ -1,19 +1,22 @@
 a {
-  background: no-repeat center;
+  background: no-repeat left;
+  background-size: contain;
+  border-color: white;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  color: white;
   display: inline-block;
-  height: 100px;
+  font-size: 26px;
   margin: 5px;
-  padding: 15px;
-  width: 100px;
+  padding: 15px 15px 15px 70px;
+  text-decoration: none;
+  -ms-behavior: url(http://cdn.rawgit.com/louisremi/background-size-polyfill/gh-pages/backgroundsize.min.htc);
 }
 
 a:hover {
   background-color: #eef;
   border-color: #059;
+  text-decoration: underline;
 }
 
 body {
@@ -54,7 +57,7 @@ input {
 
 select {
   margin-top: 30px;
-  width: 32%;
+  width: 97%;
 }
 
 button:focus,
@@ -71,8 +74,7 @@ h1 {
   font-size: 52px;
 }
 
-h2,
-h3 {
+h2 {
   font-weight: normal;
   margin-bottom: 16px;
 }
@@ -102,61 +104,20 @@ h3 {
 }
 
 .header a {
-  display: inline;
   border: none;
+  color: white;
+  display: inline;
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
 
 .header a:hover {
   background: none;
   border: none;
-  text-decoration: underline;
-}
-
-.hidden {
-  display: none;
 }
 
 .info {
   text-align: left;
-}
-
-.KMS,
-.PE,
-.proof {
-  font-size: 25px;
-  position: relative;
-}
-
-.KMS:hover,
-.PE:hover,
-.proof:hover {
-  border-style: solid;
-}
-
-.KMS:after,
-.PE:after,
-.proof:after {
-  bottom: 30px;
-  color: black;
-  left: 0;
-  position: absolute;
-  z-index: 2;
-}
-
-.KMS:after {
-  content: 'Office 2010 Activator';
-}
-
-.PE:after {
-  bottom: 50px;
-  content: 'Windows PE';
-}
-
-.proof:after {
-  content: 'Proofing Tools';
 }
 
 .suggested {
