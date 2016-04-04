@@ -99,6 +99,12 @@ p {
   -ms-behavior: url(http://cdn.rawgit.com/louisremi/background-size-polyfill/gh-pages/backgroundsize.min.htc);
 }
 
+.EN,
+.LV,
+.RU {
+  color: #dde9fb;
+}
+
 .header {
   background-color: #38d;
   color: white;
@@ -114,7 +120,7 @@ p {
 }
 
 .suggest {
-  font-style: italic;
+  color: #38d;
 }
 
 ::-webkit-input-placeholder {
