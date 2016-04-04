@@ -109,6 +109,14 @@ p {
   color: white;
 }
 
+.info {
+  text-align: right;
+}
+
+.suggest {
+  font-style: italic;
+}
+
 ::-webkit-input-placeholder {
    color: #38d;
    text-align: center;
