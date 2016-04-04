@@ -1,104 +1,127 @@
-<!DOCTYPE html>
-<html>
-<title>qiiwexc v16.4.4</title>
-<meta charset=utf-8>
-<link rel=stylesheet href=stylesheet.css>
-<link rel=stylesheet href=images.css>
-<img src=http://mc.yandex.ru/watch/35198485 style=position:absolute;left:-10000px;>
+<!DOCTYPE html><html><title>qiiwexc v16.4.5</title><meta charset=utf-8><link rel=stylesheet href=stylesheet.css><img src=http://mc.yandex.ru/watch/35198485 style=display:none;>
 
 <div class=header>
   <h1>qiiwexc</h1>
-  <h2>v16.4.4 (<a target=_blank href=http://github.com/qiiwexc/qiiwexc.github.io/releases>Changelog</a>)</h2>
-  <h2><a href=downloads/qiiwexc.exe>New qiiwexc</a> (in development)</h2>
+  <h2>v16.4.5 | <a target=_blank href=http://github.com/qiiwexc/qiiwexc.github.io/releases>Changelog</a></h2>
+  <h2><a href=downloads/qiiwexc.exe>New qiiwexc (in development)</a></h2>
+  <form><input placeholder="Enter driver code to search on DevID"> <button type=submit>Search</button></form>
 </div>
 
 <div class=content>
 
-  <form>
-    <input placeholder="Search DevID.info for driver by it's code">
-    <button type=submit>Search DevID</button>
-  </form>
-
-  <select id=language>
-    <option value=en>English
-    <option value=ru>Russian
-    <option value=lv>Latvian
-  </select>
-
-  <h2>Installs</h2>
-  <div id=installs>
-    <a class=w10 target=_blank href="http://rutracker.org/forum/viewtopic.php?t=5182931">Windows 10</a>
-    <a class=w8 target=_blank href="http://rutracker.org/forum/viewtopic.php?t=5109222">Windows 8.1</a>
-    <a class=w7 target=_blank href="http://rutracker.org/forum/viewtopic.php?t=5189896">Windows 7</a>
-    <a class=XP target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxM1Y0R2luQ3poMEU">Windows XP</a>
-    <a class=o2016 target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxcTd3RTdiSVVGbFU">Office 2016</a>
-    <a class="o2016 proof" target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxUmFTblF2RUlFUnM">Office 2016 Proofing Tools</a>
-    <a class=o2010 target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxZmtTS2t4RUFWM0U">Office 2010</a>
-    <a class="o2010 proof" target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxTzhtVXJIVVNZTlE">Office 2010 Proofing Tools</a>
-    <a class=Unchecky href=http://unchecky.com/files/unchecky_setup.exe>Unchecky</a>
-    <a class=zip target=_blank href=http://7-zip.org/download.html>7zip</a>
-    <a class=Chrome target=_blank href="http://google.com/intl/en/chrome/browser/thankyou.html?extra=devchannel">Google Chrome (Windows 7+)</a>
-    <a class=Chrome target=_blank href="http://google.com/intl/en/chrome/browser/thankyou.html?extra=betachannel">Google Chrome (Windows XP / Vista)</a>
-    <a class=VLC target=_blank href=http://videolan.org/vlc/download-windows.html>VLC Media Player</a>
-    <a class=TeamViewer href=http://download.teamviewer.com/download/TeamViewer_Setup_en.exe>TeamViewer</a>
-    <a class=Skype href=http://skype.com/go/getskype>Skype</a>
-    <a class=qBittorrent target=_blank href=http://fosshub.com/qBittorrent.html>qBittorrent</a>
-    <a class=CCleaner target=_blank href=http://piriform.com/ccleaner/download/standard>CCleaner</a>
-    <a class=Defraggler target=_blank href=http://piriform.com/defraggler/download/standard>Defraggler</a>
-    <a class=StartMenu8 target=_blank href="http://iobit.com/downloadcenter.php?product=iobit-startmenu8">StartMenu8</a>
+  <div class=w10>
+    <b>Install:</b> <a target=_blank href="http://rutracker.org/forum/viewtopic.php?t=5182931">ISO</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/10.reg>ENG</a> | <a href=downloads/preferences/ru/10.reg>RUS</a>
+  </div>
+  <div class=w8>
+    <b>Install:</b> <a target=_blank href="http://rutracker.org/forum/viewtopic.php?t=5109222">ISO</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/8.reg>ENG</a> | <a href=downloads/preferences/ru/8.reg>RUS</a>
+  </div>
+  <div class=w7>
+    <b>Install:</b> <a target=_blank href="http://rutracker.org/forum/viewtopic.php?t=5189896">ISO</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/7.reg>ENG</a> | <a href=downloads/preferences/ru/7.reg>RUS</a>
+  </div>
+  <div class=XP>
+    <b>Install:</b> <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxM1Y0R2luQ3poMEU">ENG</a> | <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxNHFWNnB1QzlzN2c">RUS</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/XP.reg>ENG</a> | <a href=downloads/preferences/ru/XP.reg>RUS</a>
   </div>
 
-  <h2>Preferences</h2>
-  <div id=preferences>
-    <a class=w10 href=downloads/preferences/en/10.reg>Windows 10</a>
-    <a class=w8 href=downloads/preferences/en/8.reg>Windows 8.1</a>
-    <a class=w7 href=downloads/preferences/en/7.reg>Windows 7</a>
-    <a class=XP href=downloads/preferences/en/XP.reg>Windows XP</a>
-    <a class=Unchecky href=downloads/preferences/en/Unchecky.reg>Unchecky</a>
-    <a class=zip href=downloads/preferences/en/7zip.reg>7zip</a>
-    <a class=Chrome href=downloads/preferences/en/Chrome.bat>Google Chrome</a>
-    <a class=VLC href=downloads/preferences/VLC.bat>VLC Media Player</a>
-    <a class=TeamViewer href=downloads/preferences/TeamViewer.reg>TeamViewer</a>
-    <a class=qBittorrent href=downloads/preferences/en/qBittorrent.bat>qBittorrent</a>
-    <a class=CCleaner href=downloads/preferences/en/CCleaner.bat>CCleaner</a>
-    <a class=Defraggler href=downloads/preferences/en/Defraggler.bat>Defraggler</a>
-    <a class=StartMenu8 href=downloads/preferences/en/StartMenu8.bat>StartMenu8</a>
+  <hr>
+
+  <div class=o2016>
+    <b>Install:</b> <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxcTd3RTdiSVVGbFU">ENG</a> | <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxRFEwVlAya0ZWZzQ">RUS</a><br>
+    <b>Install:</b> <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxUmFTblF2RUlFUnM">Proofing Tools</a>
+  </div>
+  <div class=o2010>
+    <b>Install:</b> <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxZmtTS2t4RUFWM0U">ENG</a> | <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxRS1LQkVBRXpmX00">RUS</a><br>
+    <b>Install:</b> <a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxTzhtVXJIVVNZTlE">Proofing Tools</a>
   </div>
 
-  <h2>Utilities</h2>
-  <div id=utilities>
-    <a class=AutoKMS target=_blank href=http://rghost.ru/6ZlzzdX4S>Office 2010+ / Windows 7+ Activator</a>
-    <a class=KMS href=downloads/KMS.exe>Office 2010 Activator (Windows XP)</a>
-    <a class=XP href=downloads/XP.vbs>Windows XP Activator</a>
-    <a class=PE target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxWDFlRE1qSnhEWDQ">Windows PE</a>
-    <a class=WindowsToUSB href=downloads/WindowsToUSB.zip>WindowsToUSB</a>
-    <a class=Victoria target=_blank href=http://myac.pro/ftp/victoria_447.zip>Victoria</a>
-    <a class=HDDLLF href=downloads/HDDLLF.exe>HDDLLF</a>
-    <a class=BlueScreenView target=_blank href=http://nirsoft.net/utils/bluescreenview.zip>BlueScreenView (x86)</a>
-    <a class=BlueScreenView target=_blank href=http://nirsoft.net/utils/bluescreenview-x64.zip>BlueScreenView (x64)</a>
-    <a class=Recuva target=_blank href=http://piriform.com/recuva/download/standard>Recuva</a>
+  <hr>
+
+  <div class=KMS><b>Activate:</b> <a target=_blank href=http://rghost.ru/6ZlzzdX4S>Office 2010+ / Windows 7+</a></div>
+  <div class=XP><b>Activate:</b> <a href=downloads/KMS.exe>Office 2010</a></div>
+  <div class=XP><b>Activate:</b> <a href=downloads/XP.vbs>Windows XP</a></div>
+
+  <hr>
+
+  <div class=Chrome>
+    <b>Install:</b> <a target=_blank href="http://google.com/intl/en/chrome/browser/thankyou.html?extra=betachannel">ENG</a> | <a target=_blank href="http://google.ru/intl/ru/chrome/browser/thankyou.html?extra=betachannel">RUS</a> | <a target=_blank href="http://google.lv/intl/lv/chrome/browser/thankyou.html?extra=betachannel">LAT</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/Chrome.bat>ENG</a> | <a href=downloads/preferences/ru/Chrome.bat>RUS</a> | <a href=downloads/preferences/lv/Chrome.bat>LAT</a>
   </div>
 
-  <h2>Useful batch commands</h2>
-  <div class=info>
-    <p>
-      <b>Cleanup (Windows 7+)</b><br>
-      <i>DISM /Online /Cleanup-Image /AnalyzeComponentStore</i><br>
-      <i>DISM /Online /Cleanup-Image /StartComponentCleanup</i><br>
-      <i>DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase</i><br>
-      <i>DISM /Online /Cleanup-Image /AnalyzeComponentStore</i><br>
-    </p>
-    <p>
-      <b>Check and restore system files (Windows 7+)</b><br>
-      <i>DISM /Online /Cleanup-Image /ScanHealth</i><br>
-      <i>DISM /Online /Cleanup-Image /CheckHealth</i><br>
-      <i>DISM /Online /Cleanup-Image /RestoreHealth</i>
-    </p>
-    <p><b>SFC:</b> <i>sfc /scannow</i> (administrator rights required)<br></p>
-    <p><b>Parse SFC log:</b> <i>findstr /c:"[SR]" %windir%\Logs\CBS\CBS.log >%userprofile%\Desktop\sfcdetails.txt</i></p>
-    <p><b>Check disk:</b> <i>CHKDSK /f</i> or <i>CHKDSK /r</i></p>
+  <hr>
+
+  <div class=Unchecky>
+    <b>Install:</b> <a href=http://unchecky.com/files/unchecky_setup.exe>Unchecky</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/Unchecky.reg>ENG</a> | <a href=downloads/preferences/ru/Unchecky.reg>RUS</a>
   </div>
+  <div class=zip>
+    <b>Install:</b> <a target=_blank href=http://7-zip.org/download.html>7zip</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/7zip.reg>ENG</a> | <a href=downloads/preferences/ru/7zip.reg>RUS</a> | <a href=downloads/preferences/lv/7zip.reg>LAT</a>
+  </div>
+  <div class=VLC>
+    <b>Install:</b> <a target=_blank href=http://videolan.org/vlc/download-windows.html>VLC</a><br>
+    <b>Config:</b> <a href=downloads/preferences/VLC.bat>VLC</a>
+  </div>
+
+  <hr>
+
+  <div class=Skype><b>Install:</b> <a href=http://skype.com/go/getskype>Skype</a></div>
+  <div class=qBittorrent>
+    <b>Install:</b> <a target=_blank href=http://fosshub.com/qBittorrent.html>qBittorrent</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/qBittorrent.bat>ENG</a> | <a href=downloads/preferences/ru/qBittorrent.bat>RUS</a>
+  </div>
+  <div class=StartMenu8>
+    <b>Install:</b> <a target=_blank href="http://iobit.com/downloadcenter.php?product=iobit-startmenu8">StartMenu8</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/StartMenu8.bat>ENG</a> | <a href=downloads/preferences/ru/StartMenu8.bat>RUS</a> | <a href=downloads/preferences/lv/StartMenu8.bat>LAT</a>
+  </div>
+
+  <hr>
+
+  <div class=TeamViewer>
+    <b>Install:</b> <a href=http://download.teamviewer.com/download/TeamViewer_Setup_en.exe>ENG</a> | <a href=http://download.teamviewer.com/download/TeamViewer_Setup_ru.exe>RUS</a><br>
+    <b>Config:</b> <a href=downloads/preferences/TeamViewer.reg>TeamViewer</a>
+  </div>
+  <div class=CCleaner>
+    <b>Install:</b> <a target=_blank href=http://piriform.com/ccleaner/download/standard>CCleaner</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/CCleaner.bat>ENG</a> | <a href=downloads/preferences/ru/CCleaner.bat>RUS</a> | <a href=downloads/preferences/lv/CCleaner.bat>LAT</a>
+  </div>
+  <div class=Defraggler>
+    <b>Install:</b> <a target=_blank href=http://piriform.com/defraggler/download/standard>Defraggler</a><br>
+    <b>Config:</b> <a href=downloads/preferences/en/Defraggler.bat>ENG</a> | <a href=downloads/preferences/ru/Defraggler.bat>RUS</a> | <a href=downloads/preferences/lv/Defraggler.bat>LAT</a>
+  </div>
+
+  <hr>
+
+  <div class=WindowsToUSB><a href=downloads/WindowsToUSB.zip>WindowsToUSB</a></div>
+  <div class=XP><a target=_blank href="http://drive.google.com/uc?id=0B45un_ZTihqxWDFlRE1qSnhEWDQ">Windows PE</a></div>
+  <div class=BlueScreenView><b>BlueScreenView:</b> <a target=_blank href=http://nirsoft.net/utils/bluescreenview.zip>x86</a> | <a target=_blank href=http://nirsoft.net/utils/bluescreenview-x64.zip>x64</a></div>
+
+  <hr>
+
+  <div class=Victoria><a target=_blank href=http://myac.pro/ftp/victoria_447.zip>Victoria</a></div>
+  <div class=HDDLLF><a href=downloads/HDDLLF.exe>HDDLLF</a></div>
+  <div class=Recuva><a target=_blank href=http://piriform.com/recuva/download/standard>Recuva</a></div>
+
+  <hr>
+
+  <h3><b>Cleanup (Windows 7+)</b> [administrator rights required]</h3>
+  <p>DISM /Online /Cleanup-Image /AnalyzeComponentStore</p>
+  <p>DISM /Online /Cleanup-Image /StartComponentCleanup</p>
+  <p>DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase</p>
+  <p>DISM /Online /Cleanup-Image /AnalyzeComponentStore</p>
+
+  <h3><b>Check and restore system files (Windows 7+)</b> [administrator rights required]</h3>
+  <p>DISM /Online /Cleanup-Image /ScanHealth</p>
+  <p>DISM /Online /Cleanup-Image /CheckHealth</p>
+  <p>DISM /Online /Cleanup-Image /RestoreHealth</p>
+
+  <h3><b>System File Checker</b> [administrator rights required, on Windows XP installation CD is required]</h3>
+  <p>sfc /scannow</p>
+
+  <h3><b>Parse System File Checker log</b></h3>
+  <p>findstr /c:"[SR]" %windir%\Logs\CBS\CBS.log >%userprofile%\Desktop\sfcdetails.txt</p>
 </div>
 
-<script src=http://code.jquery.com/jquery-1.12.2.min.js></script>
-<script src=main.js></script>
+<script src=scripts.js></script>
