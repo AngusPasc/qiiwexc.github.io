@@ -15,7 +15,7 @@ TODO: updates, zip, search, control panel buttons and common actions, utilities,
 #include <InetConstants.au3>
 #include <FileConstants.au3>
 
-Global Const $VERSION = "16.4.5"
+Global Const $VERSION = "16.4.10"
 Global $Width, $Height, $SMART_Text, $Admin_Text
 Global $Window, $Log, $Start, $Stop, $Progress, $Input, $Search, $Internet, $Update, $Admin, $Parse, $SMART
 Global $OSArch, $OSLang, $OSVersion, $IP, $File, $New, $A_Version, $B_Version
