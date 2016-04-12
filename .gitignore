@@ -1,2 +1,11 @@
+*.compiled
+*.lps
+*.o
+*.or
+*.ppu
+*.res
+dev/project/*.exe
+dev/project/backup/
+dev/project/lib/
 dev/WindowsToUSB
 downloads/windows
