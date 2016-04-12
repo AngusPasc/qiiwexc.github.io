@@ -1,9 +1,5 @@
 'use strict';
 
-var systemArchitecture;
-var systemLanguage;
-var systemVersion;
-
 // get version number
 var xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://raw.githubusercontent.com/qiiwexc/qiiwexc.github.io/master/dev/version');
@@ -14,6 +10,7 @@ xhr.onload = function () {
 xhr.send();
 
 // detect system architecture
+var systemArchitecture;
 if (navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('Win64') !== -1) {
   systemArchitecture = 64;
 } else {
@@ -21,6 +18,7 @@ if (navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('
 }
 
 // detect system language
+var systemLanguage;
 if (navigator.language.indexOf('lv') !== -1) {
   systemLanguage = 'LV';
 } else if (navigator.language.indexOf('ru') !== -1) {
@@ -30,6 +28,7 @@ if (navigator.language.indexOf('lv') !== -1) {
 }
 
 // detect system version
+var systemVersion;
 if (navigator.appVersion.indexOf('Windows NT 10.0') !== -1) {
   systemVersion = 10;
 } else if (navigator.appVersion.indexOf('Windows NT 6.4') !== -1) {
@@ -99,7 +98,7 @@ for (var i = 0; i < elements.length; i++) {
 // search for drivers
 document.getElementsByTagName('form')[0].onsubmit = function (event) {
   var text = document.getElementsByTagName('input')[0].value;
-  event.preventDefault();
+  event.preventDefault(); // do not reload the page
 
   // notify if search box is empty, otherwise - go to devid.info
   if (text.replace(new RegExp(' ', 'g'), '').length < 1) {

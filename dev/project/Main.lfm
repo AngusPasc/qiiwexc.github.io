@@ -1,7 +1,7 @@
 object MainForm: TMainForm
-  Left = 684
+  Left = 568
   Height = 500
-  Top = 111
+  Top = 112
   Width = 500
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
@@ -27,7 +27,7 @@ object MainForm: TMainForm
     Left = 352
     Height = 25
     Top = 48
-    Width = 115
+    Width = 120
     Caption = 'HDD S.M.A.R.T. Info'
     OnClick = ButtonSMARTClick
     TabOrder = 1
@@ -36,7 +36,7 @@ object MainForm: TMainForm
     Left = 352
     Height = 25
     Top = 80
-    Width = 115
+    Width = 120
     Caption = 'Check For Updates'
     OnClick = ButtonUpdateClick
     TabOrder = 2
@@ -45,9 +45,18 @@ object MainForm: TMainForm
     Left = 352
     Height = 25
     Top = 112
-    Width = 115
+    Width = 120
     Caption = 'Write Admin Batch'
     OnClick = ButtonAdminClick
     TabOrder = 3
+  end
+  object ButtonParseSFC: TButton
+    Left = 352
+    Height = 25
+    Top = 144
+    Width = 120
+    Caption = 'Parse SFC Log'
+    OnClick = ButtonParseSFCClick
+    TabOrder = 4
   end
 end

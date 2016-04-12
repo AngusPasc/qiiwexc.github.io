@@ -54,7 +54,7 @@ echo qt5\vsplitterState="@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\0w\0\0\x4\x
 echo [Preferences]>> qBittorrent.ini
 echo Advanced\AnnounceToAllTrackers=true>> qBittorrent.ini
 echo Advanced\confirmTorrentDeletion=true>> qBittorrent.ini
-echo Advanced\confirmTorrentRecheck=true>> qBittorrent.ini
+echo Advanced\confirmTorrentRecheck=false>> qBittorrent.ini
 echo Advanced\IgnoreLimitsLAN=true>> qBittorrent.ini
 echo Advanced\LtTrackerExchange=true>> qBittorrent.ini
 echo Advanced\RecheckOnCompletion=true>> qBittorrent.ini

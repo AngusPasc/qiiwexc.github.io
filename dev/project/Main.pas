@@ -1,20 +1,25 @@
 unit Main;
 {$mode delphi}{$H+}
 interface
+
 uses
-  Classes, SysUtils, Forms, Windows, StdCtrls, LCLType, VersionTypes, VersionResource, shlobj;
+  Classes, SysUtils, Forms, Process, Windows, StdCtrls, VersionTypes, VersionResource, HTTPSend;
 
 type
+
+  { TMainForm }
+
   TMainForm = class(TForm)
-    ButtonAdmin: TButton;
-    ButtonUpdate: TButton;
-    ButtonSMART : TButton;
-    Log : TMemo;
-    procedure ButtonAdminClick(Sender: TObject);
-    procedure Logger(Text: string);
-    procedure FormCreate(Sender: TObject);
-    procedure ButtonUpdateClick(Sender: TObject);
-    procedure ButtonSMARTClick(Sender: TObject);
+    ButtonAdmin    : TButton;
+    ButtonParseSFC : TButton;
+    ButtonSMART    : TButton;
+    ButtonUpdate   : TButton;
+    Log            : TMemo;
+    procedure ButtonParseSFCClick(Sender: TObject);
+    procedure FormCreate        (Sender: TObject);
+    procedure ButtonAdminClick  (Sender: TObject);
+    procedure ButtonSMARTClick  (Sender: TObject);
+    procedure ButtonUpdateClick (Sender: TObject);
   private
     { private declarations }
   public
@@ -29,6 +34,46 @@ implementation
 
   { Helper procedures and functions }
 
+procedure Logger(Text: string);
+begin
+  MainForm.Log.Append(FormatDateTime('DD.MM.YYYY hh:mm:ss.zzz', Now) + ' - ' + Text);
+end;
+
+function Download(URL: string; SavePath: string = ''; SaveName: string = ''; Save: bool = true): string;
+var
+  httpClient : THTTPSend;
+  Name       : TStringList;
+  Success    : bool;
+  Code       : integer;
+begin
+  if SavePath <> '' then SavePath := SavePath + '\';
+
+  if SaveName = '' then
+  begin
+    Name               := TStringList.Create;
+    Name.Delimiter     := '/';
+    Name.DelimitedText := URL;
+    SaveName           := Name[Name.Count - 1];
+    Name.Free;
+  end;
+
+  httpClient := THTTPSend.Create;
+  Success    := httpClient.HTTPMethod('GET', URL);
+  Code       := httpClient.ResultCode;
+
+  if Success and (Code >= 100) and (Code <= 299) then
+  begin
+    if Save then httpClient.Document.SaveToFile(SavePath + SaveName)
+    else
+    begin
+      SetString(Result, PAnsiChar(httpClient.Document.Memory), httpClient.Document.Size);
+    end;
+  end
+  else Result := '-1';
+
+  httpClient.Free;
+end;
+
 function AppVersion: string;
 var
   Resource : TVersionResource;
@@ -38,9 +83,9 @@ begin
   Resource.SetCustomRawDataStream(TResourceStream.CreateFromID(HINSTANCE, 1, PChar(RT_VERSION)));
 
   Info   := Resource.FixedInfo;
-  Result := 'v' + IntToStr(Info.FileVersion[0]) +
-            '.' + IntToStr(Info.FileVersion[1]) +
-            '.' + IntToStr(Info.FileVersion[2]);
+  Result := IntToStr(Info.FileVersion[0]) +
+      '.' + IntToStr(Info.FileVersion[1]) +
+      '.' + IntToStr(Info.FileVersion[2]);
 end;
 
 function OSVersion: string;
@@ -75,8 +120,8 @@ end;
 
 function OSArchitecture: string;
 var
-  IsWow64Process : function(hProcess : THandle; var Wow64Process : BOOL): BOOL; stdcall;
-  Wow64Process   : BOOL;
+  IsWow64Process : function(hProcess: THandle; var Wow64Process: bool): bool; stdcall;
+  Wow64Process   : bool;
 begin
   Wow64Process   := false;
   IsWow64Process := GetProcAddress(GetModuleHandle(Kernel32), 'IsWow64Process');
@@ -98,100 +143,110 @@ begin
   Result := Buffer;
 end;
 
-procedure TMainForm.Logger(Text: string);
+function CheckForUpdates: string;
+var
+  CurrentVersion : TStringList;
+  NewVersion     : TStringList;
+  Release        : string;
 begin
-  Log.Append(FormatDateTime('DD.MM.YYYY hh:mm:ss.zzz', Now) + ' - ' + Text);
-end;
+  Release := Download('http://qiiwexc.github.io/dev/version', '', '', false);
 
-procedure CheckForUpdates;
-begin
-  MainForm.Logger('aaa');
+  if Release <> '-1' then
+  begin
+    Release := Copy(Release, 0, length(Release) - 1);
+
+    CurrentVersion               := TStringList.Create;
+    CurrentVersion.Delimiter     := '.';
+    CurrentVersion.DelimitedText := AppVersion();
+
+    NewVersion                   := TStringList.Create;
+    NewVersion.Delimiter         := '.';
+    NewVersion.DelimitedText     := Release;
+
+    if StrToInt(NewVersion[0]) > StrToInt(CurrentVersion[0]) then Result := Release
+    else
+    begin
+      if StrToInt(NewVersion[1]) > StrToInt(CurrentVersion[1]) then Result := Release
+      else
+      begin
+        if StrToInt(NewVersion[2]) > StrToInt(CurrentVersion[2]) then Result := Release
+        else Result := '0'
+      end;
+    end;
+
+    CurrentVersion.Free;
+    NewVersion.Free;
+  end
+  else Result := Release;
+
 end;
 
   { Event handlers }
 
-procedure TMainForm.ButtonUpdateClick(Sender: TObject);
-begin
-  CheckForUpdates();
-end;
-
 procedure TMainForm.ButtonAdminClick(Sender: TObject);
-var
-  Path   : PChar;
-  //Path : string;
-  AdminFile : TextFile;
-  //Lines     : array [1..17] of string;
 begin
-  AssignFile(AdminFile, 'Admin.bat');
-  Path := '';
-  SHGetSpecialFolderPath(0, Path, CSIDL_DESKTOPDIRECTORY, false);
-  //Path := Desktop;
-  Logger(Path + 'Admin.bat');
-
-  //{$I+}
-  try
-    rewrite(AdminFile);
-    writeln(AdminFile, 'Hello textfile!');
-    CloseFile(AdminFile);
-  except
-    on E: EInOutError do
-      Logger('File handling error occurred. Details: ' + E.ClassName + '/' + E.Message);
-  end;
-  Logger('File Admin.bat created if all went ok. Press Enter to stop.');
-
-  //Lines[1]  := '@echo off';
-  //Lines[2]  := '>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"';
-  //Lines[3]  := 'if "%errorlevel%" NEQ "0" (';
-  //Lines[4]  := 'echo Requesting administrative privileges...';
-  //Lines[5]  := 'goto UACPrompt';
-  //Lines[6]  := ') else ( goto gotAdmin )';
-  //Lines[7]  := ':UACPrompt';
-  //Lines[8]  := 'echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"';
-  //Lines[9]  := 'set params = %*:"=""';
-  //Lines[10] := 'echo UAC.ShellExecute "%~s0", "%params%", "", "runas", 1 >> "%temp%\getadmin.vbs"';
-  //Lines[11] := '"%temp%\getadmin.vbs"';
-  //Lines[12] := 'exit /B';
-  //Lines[13] := ':gotAdmin';
-  //Lines[14] := 'if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )';
-  //Lines[15] := 'pushd "%CD%"';
-  //Lines[16] := 'CD /D "%~dp0"';
-  //Lines[17] := '::----PLACE----YOUR----CODE----BELOW----';
-  //
-  //try
-  //  AdminFile := TFileStream.Create(Desktop + '\Admin.bat', fmCreate);
-  //  //AdminFile.write(Lines[1], length(Lines[1]));
-  //  //AdminFile.write(Lines[2], length(Lines[2]));
-  //  AdminFile.write(Lines[3], length(Lines[3]));
-  //  AdminFile.Free;
-  //  Logger('File Admin.bat was successfully saved to desktop.');
-  //except
-  //  on E: EInOutError do
-  //    Logger('File handling error occurred. Details: ' + E.ClassName + '/' + E.Message);
-  //end;
+  Logger(Download('http://qiiwexc.github.io/downloads/Admin.bat'));
 end;
 
-procedure TMainForm.FormCreate(Sender: TObject);
+procedure TMainForm.ButtonParseSFCClick(Sender: TObject);
+var
+  s: string;
 begin
-  Application.Title := Application.Title + ' ' + AppVersion();
-  MainForm.Caption  := Application.Title;
-  Logger(Application.Title + ' started');
-  Logger('Running on ' + OSVersion() + ' (x' + OSArchitecture() + ') ' + OSLanguage());
-  CheckForUpdates();
+  //RunCommand('c:\windows\system32\cmd.exe', ['/c', '%windir%\Logs\CBS\CBS.log>%userprofile%\Desktop\sfcdetails.txt'], s);
+  //RunCommand('c:\windows\system32\cmd.exe', ['/c', 'echo a>%userprofile%\Desktop\sfcdetails.txt'], s);
+  ExecuteProcess('cmd', '/c %windir%\Logs\CBS\CBS.log>%userprofile%\Desktop\sfcdetails.txt');
+  Logger('SFC log parsed and saved as "sfcdetails.txt"');
+  Logger(s);
 end;
 
 procedure TMainForm.ButtonSMARTClick(Sender: TObject);
 begin
   Application.MessageBox(
-    'Value: higher is better' + sLineBreak +
-    'Threshold: must be higher than Value' + sLineBreak +
+    'Value: higher is better'                 + sLineBreak +
+    'Threshold: must be higher than Value'    + sLineBreak +
     'Worst: the lowest value ever registered' + sLineBreak +
-    'Raw: current value in hex' + sLineBreak +
-    'Type: attribute type:' + sLineBreak +
-    '  - PR: Performance-related' + sLineBreak +
-    '  - ER: Error rate' + sLineBreak +
-    '  - EC: Events count' + sLineBreak +
+    'Raw: current value in hex'               + sLineBreak +
+    'Type: attribute type:'                   + sLineBreak +
+    '  - PR: Performance-related'             + sLineBreak +
+    '  - ER: Error rate'                      + sLineBreak +
+    '  - EC: Events count'                    + sLineBreak +
     '  - SP: Self-preserve'
     , 'HDD S.M.A.R.T. Info', MB_ICONINFORMATION);
+end;
+
+procedure TMainForm.ButtonUpdateClick(Sender: TObject);
+var
+  CheckResult: string;
+begin
+  CheckResult := CheckForUpdates();
+
+  if ButtonUpdate.Caption = 'Check For Updates' then
+  begin
+    if      CheckResult =  '0' then Logger('You are using the latest version!')
+    else if CheckResult = '-1' then Logger('Something went wrong while checking for updates.')
+    else
+    begin
+      Logger('New version is available: v' + CheckResult);
+      ButtonUpdate.Caption := 'Update to v' + CheckResult;
+    end;
+  end
+  else
+  begin
+    Logger('Updating!');
+    //Download('http://qiiwexc.github.io/dev/project/qiiwexc.exe');
+  end;
+
+end;
+
+procedure TMainForm.FormCreate(Sender: TObject);
+begin
+  Application.Title := Application.Title + ' v' + AppVersion();
+  MainForm.Caption  := Application.Title;
+
+  Logger(Application.Title + ' started');
+  Logger('Running on ' + OSVersion() + ' (x' + OSArchitecture() + ') ' + OSLanguage());
+
+  ButtonUpdate.Click;
 end;
 
 end.
