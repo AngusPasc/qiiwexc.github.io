@@ -62,39 +62,6 @@ for (var i = 0; i < elements.length; i++) {
   elements[i].className = systemLanguage + ' suggest';
 }
 
-// Yandex Metric
-(function (d, w, c) {
-  (w[c] = w[c] || []).push(function () {
-    try {
-      w.yaCounter35198485 = new Ya.Metrika({
-        accurateTrackBounce: true,
-        clickmap: true,
-        ecommerce: 'dataLayer',
-        id: 35198485,
-        trackHash: true,
-        trackLinks: true,
-        webvisor: true
-      });
-    } catch (e) { }
-  });
-
-  var n = d.getElementsByTagName('script')[0];
-  var s = d.createElement('script');
-  var f = function () {
-    n.parentNode.insertBefore(s, n);
-  };
-
-  s.async = true;
-  s.src = 'http://mc.yandex.ru/metrika/watch.js';
-  s.type = 'text/javascript';
-
-  if (w.opera === '[object Opera]') {
-    d.addEventListener('DOMContentLoaded', f, false);
-  } else {
-    f();
-  }
-})(document, window, 'yandex_metrika_callbacks');
-
 // search for drivers
 document.getElementsByTagName('form')[0].onsubmit = function (event) {
   var text = document.getElementsByTagName('input')[0].value;
