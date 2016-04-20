@@ -33,9 +33,9 @@ object MainForm: TMainForm
     TabOrder = 1
   end
   object ButtonUpdate: TButton
-    Left = 352
+    Left = 380
     Height = 25
-    Top = 80
+    Top = 0
     Width = 120
     Caption = 'Check For Updates'
     OnClick = ButtonUpdateClick

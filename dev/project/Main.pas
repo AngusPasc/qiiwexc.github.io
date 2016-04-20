@@ -1,3 +1,5 @@
+// TODO:
+
 unit Main;
 {$mode delphi}{$H+}
 interface
@@ -15,11 +17,11 @@ type
     ButtonSMART    : TButton;
     ButtonUpdate   : TButton;
     Log            : TMemo;
+    procedure ButtonAdminClick   (Sender: TObject);
     procedure ButtonParseSFCClick(Sender: TObject);
-    procedure FormCreate        (Sender: TObject);
-    procedure ButtonAdminClick  (Sender: TObject);
-    procedure ButtonSMARTClick  (Sender: TObject);
-    procedure ButtonUpdateClick (Sender: TObject);
+    procedure ButtonSMARTClick   (Sender: TObject);
+    procedure ButtonUpdateClick  (Sender: TObject);
+    procedure FormCreate         (Sender: TObject);
   private
     { private declarations }
   public
@@ -39,12 +41,12 @@ begin
   MainForm.Log.Append(FormatDateTime('DD.MM.YYYY hh:mm:ss.zzz', Now) + ' - ' + Text);
 end;
 
-function Download(URL: string; SavePath: string = ''; SaveName: string = ''; Save: bool = true): string;
+function Download(URL: string; Save: bool = true; SavePath: string = ''; SaveName: string = ''): string;
 var
-  httpClient : THTTPSend;
-  Name       : TStringList;
   Success    : bool;
   Code       : integer;
+  httpClient : THTTPSend;
+  Name       : TStringList;
 begin
   if SavePath <> '' then SavePath := SavePath + '\';
 
@@ -76,8 +78,8 @@ end;
 
 function AppVersion: string;
 var
-  Resource : TVersionResource;
   Info     : TVersionFixedInfo;
+  Resource : TVersionResource;
 begin
   Resource := TVersionResource.Create;
   Resource.SetCustomRawDataStream(TResourceStream.CreateFromID(HINSTANCE, 1, PChar(RT_VERSION)));
@@ -120,8 +122,8 @@ end;
 
 function OSArchitecture: string;
 var
-  IsWow64Process : function(hProcess: THandle; var Wow64Process: bool): bool; stdcall;
   Wow64Process   : bool;
+  IsWow64Process : function(hProcess: THandle; var Wow64Process: bool): bool; stdcall;
 begin
   Wow64Process   := false;
   IsWow64Process := GetProcAddress(GetModuleHandle(Kernel32), 'IsWow64Process');
@@ -134,8 +136,8 @@ end;
 
 function OSLanguage: string;
 var
-  Buffer : PChar;
   Size   : integer;
+  Buffer : PChar;
 begin
   Size := GetLocaleInfo (LOCALE_USER_DEFAULT, LOCALE_SENGLANGUAGE, nil, 0);
   GetMem(Buffer, Size);
@@ -145,11 +147,11 @@ end;
 
 function CheckForUpdates: string;
 var
+  Release        : string;
   CurrentVersion : TStringList;
   NewVersion     : TStringList;
-  Release        : string;
 begin
-  Release := Download('http://qiiwexc.github.io/dev/version', '', '', false);
+  Release := Download('http://qiiwexc.github.io/dev/version', false);
 
   if Release <> '-1' then
   begin
@@ -183,23 +185,22 @@ end;
 
   { Event handlers }
 
-procedure TMainForm.ButtonAdminClick(Sender: TObject);
+procedure TMainForm.ButtonAdminClick();
 begin
-  Logger(Download('http://qiiwexc.github.io/downloads/Admin.bat'));
+  Download('http://qiiwexc.github.io/downloads/Admin.bat');
 end;
 
-procedure TMainForm.ButtonParseSFCClick(Sender: TObject);
+procedure TMainForm.ButtonParseSFCClick();
 var
   s: string;
 begin
   //RunCommand('c:\windows\system32\cmd.exe', ['/c', '%windir%\Logs\CBS\CBS.log>%userprofile%\Desktop\sfcdetails.txt'], s);
-  //RunCommand('c:\windows\system32\cmd.exe', ['/c', 'echo a>%userprofile%\Desktop\sfcdetails.txt'], s);
   ExecuteProcess('cmd', '/c %windir%\Logs\CBS\CBS.log>%userprofile%\Desktop\sfcdetails.txt');
   Logger('SFC log parsed and saved as "sfcdetails.txt"');
   Logger(s);
 end;
 
-procedure TMainForm.ButtonSMARTClick(Sender: TObject);
+procedure TMainForm.ButtonSMARTClick();
 begin
   Application.MessageBox(
     'Value: higher is better'                 + sLineBreak +
@@ -214,9 +215,10 @@ begin
     , 'HDD S.M.A.R.T. Info', MB_ICONINFORMATION);
 end;
 
-procedure TMainForm.ButtonUpdateClick(Sender: TObject);
+procedure TMainForm.ButtonUpdateClick();
 var
   CheckResult: string;
+  RunProgram : TProcess;
 begin
   CheckResult := CheckForUpdates();
 
@@ -232,13 +234,19 @@ begin
   end
   else
   begin
-    Logger('Updating!');
-    //Download('http://qiiwexc.github.io/dev/project/qiiwexc.exe');
+    Logger('Downloading update...');
+    Download('http://qiiwexc.github.io/downloads/qiiwexc.exe', true, '', 'qiiwexc.tmp');
+    Download('http://qiiwexc.github.io/downloads/Updater.bat', true);
+    Logger('Updating...');
+    RunProgram := TProcess.Create(nil);
+    RunProgram.Executable := 'updater.bat';
+    RunProgram.Execute;
+    RunProgram.Free;
   end;
 
 end;
 
-procedure TMainForm.FormCreate(Sender: TObject);
+procedure TMainForm.FormCreate();
 begin
   Application.Title := Application.Title + ' v' + AppVersion();
   MainForm.Caption  := Application.Title;
