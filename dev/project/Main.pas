@@ -1,11 +1,12 @@
-// TODO:
+// if ShellExecute(0,nil, PChar('cmd'),PChar('/c start www.lazarus.freepascal.org/'),nil,0) =0 then;
 
 unit Main;
 {$mode delphi}{$H+}
 interface
 
 uses
-  Classes, SysUtils, Forms, Process, Windows, StdCtrls, VersionTypes, VersionResource, HTTPSend;
+  Classes, SysUtils, Forms, Process, Windows, StdCtrls, Buttons, ExtCtrls,
+  VersionTypes, VersionResource, HTTPSend;
 
 type
 
@@ -65,13 +66,17 @@ begin
 
   if Success and (Code >= 100) and (Code <= 299) then
   begin
-    if Save then httpClient.Document.SaveToFile(SavePath + SaveName)
+    if Save then
+    begin
+      httpClient.Document.SaveToFile(SavePath + SaveName);
+      Result := '`' + SaveName + '` was downloaded successfully!';
+    end
     else
     begin
       SetString(Result, PAnsiChar(httpClient.Document.Memory), httpClient.Document.Size);
     end;
   end
-  else Result := '-1';
+  else Result := 'An error occured while downloading `' + SaveName + '`';
 
   httpClient.Free;
 end;
@@ -153,7 +158,7 @@ var
 begin
   Release := Download('http://qiiwexc.github.io/dev/version', false);
 
-  if Release <> '-1' then
+  if Release <> 'An error occured while downloading `version`' then
   begin
     Release := Copy(Release, 0, length(Release) - 1);
 
@@ -179,7 +184,7 @@ begin
     CurrentVersion.Free;
     NewVersion.Free;
   end
-  else Result := Release;
+  else Result := '-1';
 
 end;
 
@@ -187,32 +192,30 @@ end;
 
 procedure TMainForm.ButtonAdminClick();
 begin
-  Download('http://qiiwexc.github.io/downloads/Admin.bat');
+  Logger(Download('http://qiiwexc.github.io/downloads/Admin.bat'));
 end;
 
 procedure TMainForm.ButtonParseSFCClick();
-var
-  s: string;
 begin
-  //RunCommand('c:\windows\system32\cmd.exe', ['/c', '%windir%\Logs\CBS\CBS.log>%userprofile%\Desktop\sfcdetails.txt'], s);
-  ExecuteProcess('cmd', '/c %windir%\Logs\CBS\CBS.log>%userprofile%\Desktop\sfcdetails.txt');
-  Logger('SFC log parsed and saved as "sfcdetails.txt"');
-  Logger(s);
+  ExecuteProcess('cmd', '/c findstr /c:"[SR]" %windir%\logs\cbs\cbs.log>%userprofile%\Desktop\sfcdetails.txt');
+  Logger('SFC log parsed and saved as `sfcdetails.txt`');
 end;
 
 procedure TMainForm.ButtonSMARTClick();
 begin
   Application.MessageBox(
-    'Value: higher is better'                 + sLineBreak +
-    'Threshold: must be higher than Value'    + sLineBreak +
-    'Worst: the lowest value ever registered' + sLineBreak +
-    'Raw: current value in hex'               + sLineBreak +
-    'Type: attribute type:'                   + sLineBreak +
-    '  - PR: Performance-related'             + sLineBreak +
-    '  - ER: Error rate'                      + sLineBreak +
-    '  - EC: Events count'                    + sLineBreak +
-    '  - SP: Self-preserve'
-    , 'HDD S.M.A.R.T. Info', MB_ICONINFORMATION);
+    'Value:          higher is better'                 + sLineBreak +
+    'Threshold:  must be higher than Value'            + sLineBreak +
+    'Worst:          the lowest Value ever registered' + sLineBreak +
+    'Raw:             current Value in hex'            + sLineBreak +
+    'Type:            Attribute type'                  + sLineBreak +
+    sLineBreak +
+    'Attributes:'                  + sLineBreak +
+    ' - PR: Performance-related'   + sLineBreak +
+    ' - ER: Error rate'            + sLineBreak +
+    ' - EC: Events count'          + sLineBreak +
+    ' - SP: Self-preserve'
+    , 'Info About S.M.A.R.T.', MB_ICONINFORMATION);
 end;
 
 procedure TMainForm.ButtonUpdateClick();
@@ -235,13 +238,21 @@ begin
   else
   begin
     Logger('Downloading update...');
-    Download('http://qiiwexc.github.io/downloads/qiiwexc.exe', true, '', 'qiiwexc.tmp');
-    Download('http://qiiwexc.github.io/downloads/Updater.bat', true);
-    Logger('Updating...');
-    RunProgram := TProcess.Create(nil);
-    RunProgram.Executable := 'updater.bat';
-    RunProgram.Execute;
-    RunProgram.Free;
+    CheckResult := Download('http://qiiwexc.github.io/downloads/qiiwexc.exe', true, '', 'qiiwexc.tmp');
+    if CheckResult = '`qiiwexc.exe` was downloaded successfully!' then
+    begin
+      CheckResult := Download('http://qiiwexc.github.io/downloads/Updater.bat', true);
+      if CheckResult = '`Updater.bat` was downloaded successfully!' then
+      begin
+        Logger('Updating...');
+        RunProgram := TProcess.Create(nil);
+        RunProgram.Executable := 'Updater.bat';
+        RunProgram.Execute;
+        RunProgram.Free;
+      end
+      else Logger(CheckResult);
+    end
+    else Logger(CheckResult);
   end;
 
 end;

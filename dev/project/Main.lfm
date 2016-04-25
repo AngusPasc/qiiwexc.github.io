@@ -24,37 +24,37 @@ object MainForm: TMainForm
     WordWrap = False
   end
   object ButtonSMART: TButton
-    Left = 352
+    Left = 16
     Height = 25
     Top = 48
-    Width = 120
-    Caption = 'HDD S.M.A.R.T. Info'
+    Width = 130
+    Caption = 'Info About S.M.A.R.T.'
     OnClick = ButtonSMARTClick
     TabOrder = 1
   end
   object ButtonUpdate: TButton
-    Left = 380
+    Left = 360
     Height = 25
-    Top = 0
-    Width = 120
+    Top = 8
+    Width = 130
     Caption = 'Check For Updates'
     OnClick = ButtonUpdateClick
     TabOrder = 2
   end
   object ButtonAdmin: TButton
-    Left = 352
+    Left = 16
     Height = 25
-    Top = 112
-    Width = 120
-    Caption = 'Write Admin Batch'
+    Top = 8
+    Width = 130
+    Caption = 'Download Admin.bat'
     OnClick = ButtonAdminClick
     TabOrder = 3
   end
   object ButtonParseSFC: TButton
-    Left = 352
+    Left = 16
     Height = 25
-    Top = 144
-    Width = 120
+    Top = 88
+    Width = 130
     Caption = 'Parse SFC Log'
     OnClick = ButtonParseSFCClick
     TabOrder = 4
