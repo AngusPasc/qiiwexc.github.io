@@ -6,10 +6,6 @@
   "forin": true,
   "freeze": true,
   "futurehostile": true,
-  "globals": {
-    "Ya": true
-  },
-  "jquery": true,
   "maxdepth": 3,
   "newcap": true,
   "noarg": true,
