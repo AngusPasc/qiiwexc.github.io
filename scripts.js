@@ -56,10 +56,16 @@ if (navigator.appVersion.indexOf('Windows NT 10.0') !== -1) {
 // display system information
 document.getElementsByClassName('info')[0].innerHTML = (systemVersion === '?' ? 'Unknown Operating System' : 'Windows ' + systemVersion) + ' x' + systemArchitecture + ' | ' + systemLanguage;
 
-// highlight suggested language
-var elements = document.getElementsByClassName(systemLanguage);
+// unhighlight all languages
+var elements = document.getElementsByClassName('lang');
 for (var i = 0; i < elements.length; i++) {
-  elements[i].className = systemLanguage + ' suggest';
+  elements[i].className = elements[i].className + ' link';
+}
+
+// highlight suggested language
+elements = document.getElementsByClassName(systemLanguage);
+for (var i = 0; i < elements.length; i++) {
+  elements[i].className = systemLanguage;
 }
 
 // search for drivers
