@@ -2,6 +2,11 @@
  * Main stylesheet
  */
 
+ @font-face {
+   font-family: "Segoe UI Light";
+   src: url(/segoeuil.ttf);
+ }
+
 a {
   color: inherit;
   text-decoration: none;
