@@ -50,7 +50,7 @@ echo [LegalNotice]>> qBittorrent.ini
 echo Accepted=true>> qBittorrent.ini
 echo [MainWindow]>> qBittorrent.ini
 echo geometry="@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\xff\xff\xff\xf8\xff\xff\xff\xf8\0\0\x5]\0\0\x2\xdf\0\0\0\xe2\0\0\0^\0\0\x4s\0\0\x2\x90\0\0\0\0\x2\0\0\0\x5V)">> qBittorrent.ini
-echo qt5\vsplitterState="@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\0w\0\0\x4\xc8\x1\xff\xff\xff\xff\x1\0\0\0\x1\0)">> qBittorrent.ini
+echo qt5\vsplitterState="@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\0{\0\0\x4\xc4\x1\xff\xff\xff\xff\x1\0\0\0\x1\0)">> qBittorrent.ini
 echo [Preferences]>> qBittorrent.ini
 echo Advanced\AnnounceToAllTrackers=true>> qBittorrent.ini
 echo Advanced\confirmTorrentDeletion=true>> qBittorrent.ini
