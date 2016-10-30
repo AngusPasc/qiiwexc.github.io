@@ -1,4 +1,5 @@
 Windows Registry Editor Version 5.00
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\TeamViewer]
 "AutoUpdateMode"=dword:00000000
 "Logging"=dword:00000000
