@@ -1,14 +1,5 @@
 'use strict';
 
-// get version number
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://raw.githubusercontent.com/qiiwexc/qiiwexc.github.io/master/dev/version');
-xhr.onload = function () {
-  document.getElementsByTagName('title')[0].innerHTML = document.getElementsByTagName('title')[0].innerHTML + ' v' + xhr.responseText;
-  document.getElementsByTagName('h2')[0].innerHTML = 'v' + xhr.responseText + ' | ' + document.getElementsByTagName('h2')[0].innerHTML;
-};
-xhr.send();
-
 // detect system architecture
 var systemArchitecture;
 if (navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('Win64') !== -1) {
