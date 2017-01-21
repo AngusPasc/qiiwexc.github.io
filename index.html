@@ -109,9 +109,10 @@
   <h3><b>Cleanup, check and restore system files (Windows 7+)</b> [administrator rights required]</h3>
   <p>DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase</p>
   <p>DISM /Online /Cleanup-Image /ScanHealth</p>
-  <p>DISM /Online /Cleanup-Image /CheckHealth</p>
   <p>DISM /Online /Cleanup-Image /RestoreHealth</p>
-  <p></p>
+  <p>sfc /scannow</p>
+  <p>findstr /c:"[SR]" %windir%\logs\cbs\cbs.log>%userprofile%\Desktop\sfcdetails.txt</p>
+  <p> </p>
 </div>
 
 <script src=scripts.js></script>
