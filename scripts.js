@@ -1,5 +1,3 @@
-'use strict';
-
 // detect system language
 var systemLanguage;
 if(navigator.browserLanguage) {
@@ -39,14 +37,4 @@ document.getElementsByTagName('form')[0].onsubmit = function (event) {
   } else {
     window.open('http://devid.info/search?text=' + text.replace(/&/g, '%26'));
   }
-};
-
-
-
-
-
-// TEST
-document.getElementById('test').onclick = function (event) {
-  document.getElementById('test').innerHTML='<iframe src="https://www.piriform.com/recuva/download/standard"></iframe>'
-  // document.getElementById('test').innerHTML='<object type="text/html" style="width: 0px; height: 0px" data="https://www.piriform.com/recuva/download/standard"></object>'
 };

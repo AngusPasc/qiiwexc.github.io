@@ -3,9 +3,9 @@
  */
 
 @font-face {
-  font-family: "Segoe UI Light";
-  src: url('segoeuil.eot');
-  src: url('segoeuil.eot?#iefix') format('embedded-opentype');
+  font-family: 'Segoe UI Light';
+  src: url(segoeuil.eot);
+  src: url(segoeuil.eot?#iefix) format(embedded-opentype);
 }
 
 a {
@@ -19,7 +19,7 @@ a:hover {
 
 body {
   color: #38d;
-  font: 20px "Segoe UI Light", Arial, sans-serif !important;
+  font: 20px 'Segoe UI Light', Arial, sans-serif !important;
   margin: 0;
   text-align: center;
 }
