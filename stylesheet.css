@@ -33,13 +33,18 @@ button {
 button,
 input {
   background: #dde9fb;
+  behavior: url(border-radius.htc);
   border: none;
   border-radius: 10px;
   color: #38d;
   font: inherit;
   height: 100%;
   padding: 0 5px;
-  behavior: url(border-radius.htc);
+  position: relative;
+  vertical-align: middle;
+  zoom: 1;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 
 button:focus,
@@ -117,29 +122,29 @@ p {
   color: #dde9fb;
 }
 
-.placeholder {
-   color: #38d;
-   text-align: center;
+.placeholdersjs {
+  color: #38d;
+  text-align: center;
 }
 
 ::-webkit-input-placeholder {
-   color: #38d;
-   text-align: center;
+  color: #38d;
+  text-align: center;
 }
 
 :-moz-placeholder {
-   color: #38d;
-   text-align: center;
+  color: #38d;
+  text-align: center;
 }
 
 ::-moz-placeholder {
-   color: #38d;
-   text-align: center;
+  color: #38d;
+  text-align: center;
 }
 
 :-ms-input-placeholder {
-   color: #38d;
-   text-align: center;
+  color: #38d;
+  text-align: center;
 }
 
 /*
