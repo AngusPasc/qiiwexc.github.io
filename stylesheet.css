@@ -6,7 +6,7 @@
   font-family: "Segoe UI Light";
   src: url('segoeuil.eot');
   src: url('segoeuil.eot?#iefix') format('embedded-opentype'),
-       url('segoeuil.ttf')  format('truetype');
+       url('segoeuil.ttf') format('truetype');
 }
 
 a {
@@ -39,6 +39,7 @@ input {
   font: inherit;
   height: 100%;
   padding: 0 5px;
+  behavior: url(border-radius.htc);
 }
 
 button:focus,
@@ -114,6 +115,11 @@ p {
 
 .link {
   color: #dde9fb;
+}
+
+.placeholder {
+   color: #38d;
+   text-align: center;
 }
 
 ::-webkit-input-placeholder {
