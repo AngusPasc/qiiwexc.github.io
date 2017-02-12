@@ -2,9 +2,15 @@
 
 // detect system language
 var systemLanguage;
-if (navigator.language.indexOf('lv') !== -1) {
+if(navigator.language) {
+  systemLanguage = navigator.language;
+} else {
+  systemLanguage = navigator.browserLanguage;
+}
+
+if (systemLanguage.indexOf('lv') !== -1) {
   systemLanguage = 'LV';
-} else if (navigator.language.indexOf('ru') !== -1) {
+} else if (systemLanguage.indexOf('ru') !== -1) {
   systemLanguage = 'RU';
 } else {
   systemLanguage = 'EN';
