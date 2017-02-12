@@ -17,13 +17,13 @@ if (systemLanguage.indexOf('lv') !== -1) {
 }
 
 // unhighlight all languages
-var elements = document.getElementsByClassName('lang');
+var elements = document.querySelectorAll('.lang');
 for (var i = 0; i < elements.length; i++) {
   elements[i].className = elements[i].className + ' link';
 }
 
 // highlight suggested language
-elements = document.getElementsByClassName(systemLanguage);
+elements = document.querySelectorAll('.' + systemLanguage);
 for (var i = 0; i < elements.length; i++) {
   elements[i].className = systemLanguage;
 }
