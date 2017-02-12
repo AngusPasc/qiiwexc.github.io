@@ -4,7 +4,7 @@
 
  @font-face {
    font-family: "Segoe UI Light";
-   src: url(./segoeuil.ttf);
+   src: url(segoeuil.ttf);
  }
 
 a {
@@ -98,7 +98,7 @@ p {
   padding: 10px 10px 10px 65px;
   text-align: left;
   vertical-align: middle;
-  -ms-behavior: url(http://cdn.rawgit.com/louisremi/background-size-polyfill/gh-pages/backgroundsize.min.htc);
+  -ms-behavior: url(backgroundsize.min.htc);
 }
 
 .header {
