@@ -41,5 +41,6 @@ document.getElementsByTagName('form')[0].onsubmit = function (event) {
 
 // TEST
 document.getElementById('test').onclick = function (event) {
-  document.getElementById('test').innerHTML='<object type="text/html" style="width: 0px; height: 0px" data="http://www.piriform.com/recuva/download/standard" ></object>'
+  document.getElementById('test').innerHTML='<object type="text/html" data="https://www.piriform.com/recuva/download/standard"></object>'
+  // document.getElementById('test').innerHTML='<object type="text/html" style="width: 0px; height: 0px" data="https://www.piriform.com/recuva/download/standard"></object>'
 };
