@@ -2,10 +2,11 @@
  * Main stylesheet
  */
 
- @font-face {
-   font-family: "Segoe UI Light";
-   src: url(segoeuil.ttf);
- }
+@font-face {
+  font-family: "Segoe UI Light";
+  src: url(segoeuil.ttf);
+  src: url(segoeuil.eot);
+}
 
 a {
   color: inherit;
@@ -18,7 +19,7 @@ a:hover {
 
 body {
   color: #38d;
-  font: 20px "Segoe UI Light", Arial, sans-serif;
+  font: 20px "Segoe UI Light", Arial, sans-serif !important;
   margin: 0;
   text-align: center;
 }
