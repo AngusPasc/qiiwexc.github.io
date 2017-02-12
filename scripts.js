@@ -2,10 +2,10 @@
 
 // detect system language
 var systemLanguage;
-if(navigator.language) {
-  systemLanguage = navigator.language;
-} else {
+if(navigator.browserLanguage) {
   systemLanguage = navigator.browserLanguage;
+} else {
+  systemLanguage = navigator.language;
 }
 
 if (systemLanguage.indexOf('lv') !== -1) {
