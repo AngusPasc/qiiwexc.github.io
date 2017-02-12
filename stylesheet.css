@@ -4,8 +4,9 @@
 
 @font-face {
   font-family: "Segoe UI Light";
-  src: url(segoeuil.ttf);
-  src: url(segoeuil.eot);
+  src: url('segoeuil.eot');
+  src: url('segoeuil.eot?#iefix') format('embedded-opentype'),
+       url('segoeuil.ttf')  format('truetype');
 }
 
 a {
