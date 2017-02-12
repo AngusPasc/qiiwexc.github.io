@@ -98,7 +98,6 @@ p {
   padding: 10px 10px 10px 65px;
   text-align: left;
   vertical-align: middle;
-  -ms-behavior: url(backgroundsize.min.htc);
 }
 
 .header {
