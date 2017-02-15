@@ -1,12 +1,3 @@
-// detect system architecture
-var systemArchitecture;
-if (navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('Win64') !== -1) {
-  systemArchitecture = 64;
-} else {
-  systemArchitecture = 86;
-}
-
-// detect system version
 var systemVersion;
 if (navigator.appVersion.indexOf('Windows NT 10.0') !== -1) {
   systemVersion = 10;
@@ -32,13 +23,9 @@ if (navigator.appVersion.indexOf('Windows NT 10.0') !== -1) {
   systemVersion = '?';
 }
 
-// detect system language
-var systemLanguage;
-if(navigator.browserLanguage) {
-  systemLanguage = navigator.browserLanguage;
-} else {
-  systemLanguage = navigator.language;
-}
+var systemArchitecture = navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('Win64') !== -1 ? 64 : 86;
+var systemLanguage = navigator.browserLanguage ? navigator.browserLanguage : navigator.language;
+
 
 if (systemLanguage.indexOf('lv') !== -1) {
   systemLanguage = 'LV';

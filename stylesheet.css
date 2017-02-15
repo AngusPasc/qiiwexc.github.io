@@ -114,7 +114,11 @@ p {
 .header {
   background: #00af85;
   color: white;
-  padding: 16px;
+  display: block;
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .header a {
@@ -122,6 +126,7 @@ p {
 }
 
 .info {
+  padding: 0 16px;
   text-align: right;
 }
 
@@ -131,6 +136,11 @@ p {
 
 .placeholdersjs {
   color: white;
+}
+
+.wrapper {
+  position: relative;
+  top: 220px;
 }
 
 ::-webkit-input-placeholder {
