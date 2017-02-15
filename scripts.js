@@ -25,15 +25,7 @@ if (navigator.appVersion.indexOf('Windows NT 10.0') !== -1) {
 
 var systemArchitecture = navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('Win64') !== -1 ? 64 : 86;
 var systemLanguage = navigator.browserLanguage ? navigator.browserLanguage : navigator.language;
-
-
-if (systemLanguage.indexOf('lv') !== -1) {
-  systemLanguage = 'LV';
-} else if (systemLanguage.indexOf('ru') !== -1) {
-  systemLanguage = 'RU';
-} else {
-  systemLanguage = 'EN';
-}
+var systemLanguage = systemLanguage.indexOf('ru') !== -1 ? 'RU' : 'EN';
 
 // unhighlight all languages
 var elements = document.querySelectorAll('.lang');
