@@ -121,6 +121,10 @@ p {
   color: inherit;
 }
 
+.info {
+  text-align: right;
+}
+
 .link {
   color: #4c5058;
 }
