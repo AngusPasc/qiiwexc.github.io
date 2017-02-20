@@ -90,7 +90,7 @@
   <div class=WindowsToUSB><a href=downloads/WindowsToUSB.zip>WindowsToUSB</a></div>
   <div class=Malwarebytes><a target=_blank href=https://www.malwarebytes.com/products>Malwarebytes</a></div>
   <div class=XP><a target=_blank href="https://drive.google.com/uc?id=0B45un_ZTihqxWDFlRE1qSnhEWDQ">Windows PE</a></div>
-  <div class=BlueScreenView><b>BlueScreenView:</b> <a target=_blank href=http://nirsoft.net/utils/bluescreenview.zip>x86</a> | <a target=_blank href=http://nirsoft.net/utils/bluescreenview-x64.zip>x64</a></div>
+  <div class=BlueScreenView><b>BlueScreenView:</b> <a target=_blank href=http://nirsoft.net/utils/bluescreenview-x64.zip class="bit x64">x64</a> | <a target=_blank href=http://nirsoft.net/utils/bluescreenview.zip class="bit x86">x86</a></div>
 
   <hr>
 
@@ -102,12 +102,16 @@
 
   <hr>
 
+  <h3><b><a class=url href=http://forum.oszone.net/thread-257198.html>Windows 7 Update Pack</a></b></h3>
+
   <h3><b>Cleanup, check and restore system files (Windows 7+)</b> [administrator rights required]</h3>
   <p>DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase</p>
   <p>DISM /Online /Cleanup-Image /ScanHealth</p>
   <p>DISM /Online /Cleanup-Image /RestoreHealth</p>
   <p>sfc /scannow</p>
   <p>findstr /c:"[SR]" %windir%\logs\cbs\cbs.log>%userprofile%\Desktop\sfcdetails.txt</p>
+
+  <h3></h3>
 </div></div>
 
 <script src=https://cdnjs.cloudflare.com/ajax/libs/placeholders/4.0.1/placeholders.min.js></script>

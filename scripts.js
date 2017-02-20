@@ -1,4 +1,8 @@
+var elements;
+var systemArchitecture;
+var systemLanguage;
 var systemVersion;
+
 if (navigator.appVersion.indexOf('Windows NT 10.0') !== -1) {
   systemVersion = 10;
 } else if (navigator.appVersion.indexOf('Windows NT 6.4') !== -1) {
@@ -23,24 +27,32 @@ if (navigator.appVersion.indexOf('Windows NT 10.0') !== -1) {
   systemVersion = '?';
 }
 
-var systemArchitecture = navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('Win64') !== -1 ? 64 : 86;
-var systemLanguage = navigator.browserLanguage ? navigator.browserLanguage : navigator.language;
-var systemLanguage = systemLanguage.indexOf('ru') !== -1 ? 'RU' : 'EN';
+systemArchitecture = navigator.userAgent.indexOf('WOW64') !== -1 || navigator.userAgent.indexOf('Win64') !== -1 ? 'x64' : 'x86';
+systemLanguage = navigator.browserLanguage ? navigator.browserLanguage : navigator.language;
+systemLanguage = systemLanguage.indexOf('ru') !== -1 ? 'RU' : 'EN';
 
-// unhighlight all languages
-var elements = document.querySelectorAll('.lang');
+// unhighlight all languages and arcitectures
+elements = document.querySelectorAll('.lang');
+for (var i = 0; i < elements.length; i++) {
+  elements[i].className = elements[i].className + ' link';
+}
+elements = document.querySelectorAll('.bit');
 for (var i = 0; i < elements.length; i++) {
   elements[i].className = elements[i].className + ' link';
 }
 
-// highlight suggested language
+// highlight suggested language and arcitecture
 elements = document.querySelectorAll('.' + systemLanguage);
 for (var i = 0; i < elements.length; i++) {
   elements[i].className = systemLanguage;
 }
+elements = document.querySelectorAll('.' + systemArchitecture);
+for (var i = 0; i < elements.length; i++) {
+  elements[i].className = systemArchitecture;
+}
 
 // display system information
-document.getElementsByClassName('info')[0].innerHTML = (systemVersion === '?' ? 'Unknown Operating System' : 'Windows ' + systemVersion) + ' x' + systemArchitecture + ' | ' + systemLanguage;
+document.getElementsByClassName('info')[0].innerHTML = (systemVersion === '?' ? 'Unknown Operating System' : 'Windows ' + systemVersion) + ' ' + systemArchitecture + ' | ' + systemLanguage;
 
 // search for drivers
 document.getElementsByTagName('form')[0].onsubmit = function (event) {
